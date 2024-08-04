@@ -1,5 +1,5 @@
-name: NeonFrame | Screenshot Editor
-description: Make eye-catching screenshots you share on Twitter, Instagram, and others. Try for free.
+name: Lexyk
+description: Learn a language!
 full_description: '<b>v1.8.0 (July 29, 2024)</b><br>
 <br>- Auto-generated gradient
 <br>- Fixed incorrect image orientation
@@ -34,7 +34,7 @@ full_description: '<b>v1.8.0 (July 29, 2024)</b><br>
 <br>- Added a new screen with sharing options once the image is exported
 <br>- Improved an image processing. Export takes less time now
 <br>- Added a new overview video to Google Play'
-android: https://play.google.com/store/apps/details?id=com.mobiledevpro.neonframe.app&utm_source=landing
+android:
 iOS: false
 web: false
 screenshots:

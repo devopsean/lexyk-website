@@ -6,8 +6,8 @@
 title: Lexyk App | Screenshot Maker | Screenshot Editor | Android app
 email: lexykapp@gmail.com
 description: Make highlighted screenshots for Twitter, Instagram, LinkedIn, etc. | Screenshot Maker | Screenshot Editor
-baseurl: "/neonframe.page" # the subpath of your site, e.g. /blog
-url: "https://mobiledevpro.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/lexyk" # the subpath of your site, e.g. /blog
+url: "https://devopsean.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 theme_color: '#FF191C1D'
 twitter_username: mobiledev_pro
 github_username:  mobiledevpro
