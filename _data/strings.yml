@@ -5,7 +5,7 @@ app:
   #featured: Featured in
 
 footer:
-  copyright: 🇺🇦 Made by <a href="https://bento.me/mobiledevpro" target="_blank">Dmitri Chernysh</a>
+  copyright: Made by <a href="https://linkedin.com/in/lexyk-app" target="_blank">The Lexyk Team</a>
   links:
     - title: Instagram
       url: https://instagr.am/mobiledevpro?utm_source=neonframe_landing
