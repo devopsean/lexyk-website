@@ -4,70 +4,64 @@ title: Privacy Policy
 permalink: /privacy/
 ---
 
-
 **Privacy Policy**
 
-Dmitri Chernysh built the "Neon Frame" app as a Freemium app. This SERVICE is provided by Dmitri Chernysh at no cost and is intended for use as is.
+The Lexyk app is provided as a free service. This policy is intended to inform users about the collection, use, and disclosure of personal information when using the service.
 
-This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
-
-If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.
-
-The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are accessible at Neon Frame unless otherwise defined in this Privacy Policy.
+By using the app, you agree to the collection and use of information as described in this policy. The personal information collected is used to improve the service and will not be shared except as outlined in this Privacy Policy.
 
 **Information Collection and Use**
 
-For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.
+For a better experience while using the service, the app may require certain personally identifiable information, including but not limited to name, phone number, date of birth, and language. This information will be retained on your device and is not collected by the developer in any way.
 
-The app does use third-party services that may collect information used to identify you.
+The app uses third-party services that may collect information used to identify you.
 
-Link to the privacy policy of third-party service providers used by the app
+Link to the privacy policy of third-party service providers used by the app:
 
-*   [Google Play Services](https://www.google.com/policies/privacy/)
-*   [Google Analytics for Firebase](https://firebase.google.com/support/privacy)
-*   [Firebase Crashlytics](https://firebase.google.com/support/privacy/)
+- [Google Play Services](https://www.google.com/policies/privacy/)
+- [Google Analytics for Firebase](https://firebase.google.com/support/privacy)
+- [Firebase Crashlytics](https://firebase.google.com/support/privacy)
 
 **Log Data**
 
-I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third-party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.
+In the event of an error in the app, data and information (through third-party products) on your phone, called Log Data, may be collected. This Log Data may include details such as your device's Internet Protocol (“IP”) address, device name, operating system version, app configuration when using the service, time and date of use, and other statistics.
 
 **Cookies**
 
-Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
+Cookies are small data files that are commonly used as anonymous unique identifiers. These are sent to your browser from websites you visit and are stored on your device's internal memory.
 
-This Service does not use these “cookies” explicitly. However, the app may use third-party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
+This service does not explicitly use cookies. However, the app may use third-party code and libraries that use cookies to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. Refusing cookies may limit your ability to use certain portions of the service.
 
 **Service Providers**
 
-I may employ third-party companies and individuals due to the following reasons:
+Third-party companies and individuals may be employed to:
 
-*   To facilitate our Service;
-*   To provide the Service on our behalf;
-*   To perform Service-related services; or
-*   To assist us in analyzing how our Service is used.
+- Facilitate the service;
+- Provide the service on our behalf;
+- Perform service-related tasks; or
+- Assist in analyzing how the service is used.
 
-I want to inform users of this Service that these third parties have access to their Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+These third parties have access to your personal information to perform tasks on our behalf but are obligated not to disclose or use it for any other purpose.
 
 **Security**
 
-I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.
+Your trust in providing personal information is valued, and commercially acceptable means of protecting it are employed. However, no method of transmission over the internet or electronic storage is 100% secure and reliable, and absolute security cannot be guaranteed.
 
 **Links to Other Sites**
 
-This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+The service may contain links to external sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by the developer, and users are strongly advised to review the privacy policies of these websites. The developer has no control over and assumes no responsibility for the content, privacy policies, or practices of third-party sites or services.
 
 **Children’s Privacy**
 
-These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13 years of age. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do the necessary actions.
+These services do not address anyone under the age of 13. Personal information from children under 13 is not knowingly collected. If it is discovered that a child under 13 has provided personal information, it will be immediately deleted from our servers. If you are a parent or guardian and you are aware that your child has provided personal information, please contact us to take necessary actions.
 
 **Changes to This Privacy Policy**
 
-I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page.
+The Privacy Policy may be updated periodically. Users are advised to review this page periodically for any changes. Notifications of changes will be posted on this page.
 
-This policy is effective as of 2024-01-09
+This policy is effective as of 2023-12-28.
 
 **Contact Us**
 
-If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at support@mobile-dev.pro.
+If you have any questions or suggestions about this Privacy Policy, do not hesitate to contact us at lexykapp@gmail.com.
 
-This privacy policy page was created at [privacypolicytemplate.net](https://privacypolicytemplate.net) and modified/generated by [App Privacy Policy Generator](https://app-privacy-policy-generator.nisrulz.com/)
