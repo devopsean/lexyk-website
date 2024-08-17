@@ -13,14 +13,12 @@ twitter_username: mobiledev_pro
 github_username:  mobiledevpro
 author: Sean Onuoha
 logo: assets/images/large-logo.png
-twitter:
-  username: mobiledev_pro
 social:
-  name: mobiledevpro
+  name: lexykapp
   links:
     - https://twitter.com/mobiledev_pro
-    - https://www.linkedin.com/in/dmitriychernysh
-    - https://github.com/dmitriy-chernysh
+    - https://www.linkedin.com/company/lexyk-app
+   
 
 languages: ["en"]
 ampdir: amp
