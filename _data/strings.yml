@@ -5,7 +5,7 @@ app:
   #featured: Featured in
 
 footer:
-  copyright: Made by <a href="https://linkedin.com/in/lexyk-app" target="_blank">The Lexyk Team</a>
+  copyright: Made by <a href="https://linkedin.com/company/lexyk-app" target="_blank">The Lexyk Team</a>
   links:
     - title: Privacy
       url: /privacy
