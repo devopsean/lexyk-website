@@ -59,7 +59,7 @@ These services do not address anyone under the age of 13. Personal information f
 
 The Privacy Policy may be updated periodically. Users are advised to review this page periodically for any changes. Notifications of changes will be posted on this page.
 
-This policy is effective as of 2023-12-28.
+This policy is effective as of 2024-07-28.
 
 **Contact Us**
 
