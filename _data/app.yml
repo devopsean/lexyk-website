@@ -1,6 +1,6 @@
 name: Lexyk
-description: Learn a language!
-full_description: ''
+description: Boost your vocabulary with Lexyk! Lexyk is a simple and easy-to-use app that helps you learn new words and improve your vocabulary. With Lexyk, you can learn new words, improve your vocabulary by swiping through flashcards. Lexyk is perfect for students, professionals, and anyone who wants to improve their vocabulary. Download Lexyk today and start learning new words!
+full_description: 'testing full desc'
 android:
 iOS: false
 web: false
