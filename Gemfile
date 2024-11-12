@@ -10,6 +10,11 @@ source "https://rubygems.org"
 # Happy Jekylling!
 # gem "jekyll", "3.9.3"
 
+gem 'json', '2.7.2'
+gem 'uri', '0.13.1'
+
+
+
 require 'json'
 require 'net/http'
 versions = JSON.parse(Net::HTTP.get(URI('https://pages.github.com/versions.json')))
