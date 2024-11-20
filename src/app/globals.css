@@ -1,0 +1,36 @@
+@import "@fontsource/inter";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Scale up dynamically for screens wider than 2000px */
+@media (min-width: 2000px) {
+  #page-wrapper {
+    width: 2000px; /* Design width */
+    margin: 0 auto; /* Center the design horizontally */
+    transform-origin: top center; /* Scale from the center */
+    transition: transform 0.3s ease; /* Smooth scaling */
+    transform: scale(calc(100vw / 2000)); /* Scale based on viewport width */
+  }
+}
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
