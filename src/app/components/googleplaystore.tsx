@@ -1,8 +1,7 @@
 import React from 'react'
 
-type Props = {}
 
-function Googleplaystore({}: Props) {
+function Googleplaystore() {
   return (
     <div className="flex mt-3 w-48 h-14 bg-black text-white rounded-lg items-center justify-center border border-white">
         <div className="mr-3">

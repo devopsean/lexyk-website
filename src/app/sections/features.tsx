@@ -5,9 +5,8 @@ import feature1 from '../../../public/FeatureItem1.svg'
 import feature2 from '../../../public/FeatureItem2.svg'
 import feature3 from '../../../public/FeatureItem3.svg'
 
-type Props = {}
 
-function Features({}: Props) {
+function Features() {
   return (
     <div className='max-w-[1400px] mx-auto mb-36 -mt-32'>
         <div className='text-center mb-20'>

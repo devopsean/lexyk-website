@@ -4,9 +4,8 @@ import mockup1 from "../../../public/Mockup1.svg";
 import mockup2 from "../../../public/Mockup2.svg";
 import mockup3 from "../../../public/Mockup3.svg";
 
-type Props = {}
 
-function Screenshots({}: Props) {
+function Screenshots() {
   return (
     <div className="flex flex-col md:flex-row items-center justify-center bg-black gap-8 md:gap-4">
           <div>

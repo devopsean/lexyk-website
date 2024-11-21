@@ -3,9 +3,8 @@ import {STRINGS} from '../constants/strings'
 import Googleplaystore from './googleplaystore'
 import Applestore from './applestore'
 
-type Props = {}
 
-function Store({}: Props) {
+function Store() {
   return (
     <div className='text-center justify-center'>
         <h1 className='text-4xl lg:text-6xl xl:text-7xl lg:mx-4 xl:mx-6 lg:my-5 xl:my-7 font-bold text-white'>

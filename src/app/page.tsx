@@ -1,6 +1,5 @@
 import Footer from "./components/footer";
 import Header from "./components/header";
-import Stars from "./components/stars";
 import About from "./sections/about";
 import Features from "./sections/features";
 import Getstarted from "./sections/getstarted";

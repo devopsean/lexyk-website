@@ -1,8 +1,7 @@
 import React from 'react'
 
-type Props = {}
 
-function Applestore({}: Props) {
+function Applestore() {
   return (
     <div className="flex mt-3 w-48 h-14 bg-black text-white rounded-xl items-center justify-center border border-white">
         <div className="mr-3">

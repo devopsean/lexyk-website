@@ -5,9 +5,7 @@ import bgEllipse2 from "../../../public/Bg_Ellipse.svg";
 import Screenshots from "../components/screenshots";
 
 
-type Props = {};
-
-function How({}: Props) {
+function How() {
   return (
     <div className="relative -translate-y-[230px]">
       <div className="absolute inset-0 w-full -z-10">

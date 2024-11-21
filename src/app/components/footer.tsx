@@ -1,10 +1,8 @@
 import React from 'react'
 import Link from "next/link"
-import {STRINGS} from '../constants/strings'
 
-type Props = {}
 
-function Footer({}: Props) {
+function Footer() {
   return (
     <footer className='bg-black flex flex-col md:flex-row justify-between items-center text-sm text-white'>
         <div className="flex flex-col mb-4 md:mb-0">

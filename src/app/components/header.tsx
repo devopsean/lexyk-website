@@ -2,19 +2,19 @@ import React from 'react'
 import Image from "next/image"
 import logo from "../../../public/Logo.svg"
 import wordmark from "../../../public/WordMark.svg"
+import Link from 'next/link'
 
-type Props = {}
 
-const Header = (props: Props) => {
+const Header = () => {
   return (
     <header className="bg-black text-white px-4 py-3 flex items-center justify-between">
         <div className="flex text-2xl font-bold">
-          <a href="/" className="hover:text-gray-300 mr-3">
+          <Link href="/" className="hover:text-gray-300 mr-3">
             <Image
               src = {logo}
               alt="Logo"
             />
-          </a>
+          </Link>
           <Image
             src={wordmark}
             alt="Lexyk"

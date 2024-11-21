@@ -4,9 +4,8 @@ import { STRINGS } from "../constants/strings";
 import Pyramid from "../../../public/Pyramid.png";
 import Helix from "../../../public/Helix.png";
 
-type Props = {};
 
-function Getstarted({}: Props) {
+function Getstarted() {
   return (
     <div className="relative text-center py-20 bg-gradient-to-b from-customblue to-black w-full">
       <div className="grid lg:grid-cols-3 gap-12 items-center ">

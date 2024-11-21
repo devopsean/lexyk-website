@@ -5,9 +5,8 @@ import rocket from "../../../public/Rocket.svg";
 import thorus from "../../../public/Thorus.png";
 import stars from "../../../public/Stars.svg";
 
-type Props = {};
 
-function About({}: Props) {
+function About() {
   return (
     <section>
       <div className="relative grid lg:grid-cols-3 gap-12 items-center pb-56 bg-gradient-to-b from-black via-gradcol1 via-gradcol2 via-gradcol3 to-gradcol4 w-full">
