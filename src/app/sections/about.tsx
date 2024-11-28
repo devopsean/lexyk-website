@@ -12,6 +12,7 @@ function About() {
       <div className="relative grid lg:grid-cols-3 gap-12 items-center pb-56 bg-gradient-to-b from-black via-gradcol1 via-gradcol2 via-gradcol3 to-gradcol4 w-full">
         <div className="absolute inset-0 w-full z-1 -translate-y-10">
             <Image
+              className="w-full"
                 src={stars}
                 alt="Stars"
             />
@@ -23,12 +24,12 @@ function About() {
           </div>
         </div>
 
-        <div>
+        <div className="container">
           <Store />
         </div>
 
         <div className="relative overflow-hidden">
-          <div className="xl:translate-x-[150px] translate-y-[60px] translate-x-[100px] 2xl:translate-y-0">
+          <div className="xl:translate-x-[150px] translate-y-[30px] xl:translate-y-[60px] translate-x-[100px] 2xl:translate-y-0">
             <Image src={thorus} alt="Thorus" />
           </div>
         </div>

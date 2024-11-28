@@ -4,7 +4,7 @@ import Link from "next/link"
 
 function Footer() {
   return (
-    <footer className='bg-black flex flex-col md:flex-row justify-between items-center text-sm text-white'>
+    <footer className='bg-black flex flex-col md:flex-row justify-between items-center text-sm text-white max-w-screen-2xl mx-auto'>
         <div className="flex flex-col mb-4 md:mb-0">
             <p className='m-5 '>© 2024 Lexyk. All rights reserved.</p>
             <div className="flex gap-6 mx-5 mb-5">

@@ -7,10 +7,10 @@ import Screenshots from "../components/screenshots";
 
 function How() {
   return (
-    <div className="relative -translate-y-[230px]">
-      <div className="absolute inset-0 w-full -z-10">
+    <div className="relative -translate-y-[230px] ">
+      <div className="absolute inset-0 w-full -z-10 ">
         <Image
-          className="section-divider w-full"
+          className="section-divider w-full h-auto object-cover"
           src={bgEllipse2}
           alt="divider"
         />

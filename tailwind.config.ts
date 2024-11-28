@@ -26,6 +26,7 @@ export default {
       screens: {
         'over-2000': '2000px',
         'over-1700': '1700px',
+        'over-1300': '1300px',
       },
     },
   },

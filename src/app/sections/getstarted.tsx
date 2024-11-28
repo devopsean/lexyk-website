@@ -17,10 +17,10 @@ function Getstarted() {
         </div>
 
         <div className="">
-          <h2 className="text-4xl lg:text-6xl xl:text-7xl lg:mx-4 xl:mx-6 lg:my-5 xl:my-7 md:text-5xl font-bold mb-6 flex items-center justify-center gap-4">
+          <h2 className="text-2xl lg:text-4xl xl:text-6xl 2xl:text-7xl lg:mx-4 xl:mx-6 lg:my-5 xl:my-7 md:text-5xl font-bold mb-6 flex items-center justify-center gap-4">
             {STRINGS.section4}
           </h2>
-          <p className="text-white text-2xl max-w-2xl mx-auto mb-8">
+          <p className="text-white text-lg lg:text-2xl xl:text-3xl 2xl:text-4xl max-w-2xl mx-auto mb-8">
             {STRINGS.sectionabt4}
           </p>
           <button className="bg-white text-black rounded-xl hover:bg-white/90 px-8 py-4">
@@ -29,7 +29,7 @@ function Getstarted() {
         </div>
 
         <div className="relative overflow-hidden">
-          <div className="scale-90 translate-y-[100px] translate-x-[30px]">
+          <div className="scale-90 translate-y-[75px] over-1300:translate-y-[100px] -left-full translate-x-[30px]">
             <Image src={Helix} alt="Helix" />
           </div>
         </div>
