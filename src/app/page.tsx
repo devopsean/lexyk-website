@@ -4,6 +4,12 @@ import About from "./sections/about";
 import Features from "./sections/features";
 import Getstarted from "./sections/getstarted";
 import How from "./sections/how";
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'Lexykapp',
+  description: 'The official Webpage for Lexykapp',
+};
 
 export default function Home() {
   return (
