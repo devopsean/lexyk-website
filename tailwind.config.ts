@@ -19,6 +19,9 @@ export default {
         gradcol2: "#3A2897",
         gradcol3: "#5642C5",
         gradcol4: "#A29EE8",
+        grad2col1: "#150D38",
+        grad2col2: "#2C1D73",
+        grad2col3: "#5A48C4",
       },
       background: {
         radial: `url('./Bg_Ellipse2.svg') #fff`
