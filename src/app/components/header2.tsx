@@ -4,9 +4,8 @@ import logo from "../../../public/Logo.svg";
 import wordmark from "../../../public/WordMark.svg";
 import Link from "next/link";
 
-type Props = {};
 
-export default function Header2({}: Props) {
+export default function Header2() {
   return (
     <div>
       <header className="bg-black text-white px-4 py-3 flex items-center justify-between max-w-7xl over-2000:max-w-[70vw] mx-auto">
