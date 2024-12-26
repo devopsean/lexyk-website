@@ -52,10 +52,10 @@ function Footer() {
       </div>
 
       <div className="flex gap-6 mt-4 md:mt-0 mx-5 over-2000:mt-[1vw] over-1300:text-[0.85vw]">
-        <Link href="#" className="hover:text-white">
+        <Link href="/privacy" className="hover:text-white">
           Privacy Policy
         </Link>
-        <Link href="#" className="hover:text-white">
+        <Link href="/terms" className="hover:text-white">
           Terms of Service
         </Link>
       </div>
