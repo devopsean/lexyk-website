@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="bg-black flex flex-col md:flex-row justify-between items-center text-sm text-white max-w-screen-2xl over-2000:max-w-[80vw] mx-auto">
       <div className="flex flex-col mb-4 md:mb-0 over-2000:my-[0.5vw]">
-        <p className="m-5 over-1300:text-[0.85vw]/[2vw]">© 2024 Lexyk. All rights reserved.</p>
+        <p className="m-5 over-1300:text-[0.85vw]/[2vw]">© 2025 Lexyk. All rights reserved.</p>
         <div className="flex gap-6 mx-5 mb-5">
           <Link href="#" className="hover:text-white">
             <span className="sr-only">Twitter</span>
