@@ -7,6 +7,7 @@ function GooglePlayButton() {
       "_blank"
     );
 
+    
   return (
     <div
       onClick={go}
