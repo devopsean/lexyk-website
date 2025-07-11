@@ -33,7 +33,7 @@ function Footer() {
               />
             </svg>
           </Link> */}
-          <Link href="https://www.linkedin.com/company/algoport" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+          <Link href="https://www.linkedin.com/company/lexyk-app" target="_blank" rel="noopener noreferrer" className="hover:text-white">
             <span className="sr-only">LinkedIn</span>
             <svg
               className="w-5 h-5 over-1300:w-[1vw] over-1300:h-auto"
