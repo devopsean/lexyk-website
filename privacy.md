@@ -75,4 +75,4 @@ This policy is effective as of **2024-07-28**.
 
 If you have any questions or suggestions about this Privacy Policy, do not hesitate to contact us at:
 
-**lexykapp@gmail.com**
+**support@lexykapp.com**
