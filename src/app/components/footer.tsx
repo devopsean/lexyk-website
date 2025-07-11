@@ -33,6 +33,7 @@ function Footer() {
               />
             </svg>
           </Link> */}
+          
           <Link href="https://www.linkedin.com/company/lexyk-app" target="_blank" rel="noopener noreferrer" className="hover:text-white">
             <span className="sr-only">LinkedIn</span>
             <svg
