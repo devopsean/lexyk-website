@@ -7,7 +7,7 @@ function Footer() {
       <div className="flex flex-col mb-4 md:mb-0 over-2000:my-[0.5vw]">
         <p className="m-5 over-1300:text-[0.85vw]/[2vw]">© 2025 Lexyk by AlgoPort Inc. All rights reserved.</p>
         <div className="flex gap-6 mx-5 mb-5">
-          <Link href="#" className="hover:text-white">
+          {/* <Link href="#" className="hover:text-white">
             <span className="sr-only">Twitter</span>
             <svg
               className="w-5 h-5 over-1300:w-[1vw] over-1300:h-auto"
@@ -32,7 +32,7 @@ function Footer() {
                 clipRule="evenodd"
               />
             </svg>
-          </Link>
+          </Link> */}
           <Link href="https://www.linkedin.com/company/lexyk-app/" className="hover:text-white">
             <span className="sr-only">LinkedIn</span>
             <svg
