@@ -1,7 +1,7 @@
 import React from 'react'
 import {STRINGS} from '../constants/strings'
 import Googleplaystore from './googleplaystore'
-import Applestore from './applestore'
+// import Applestore from './applestore'
 
 
 function Store() {
