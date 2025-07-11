@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import logo from "../../../public/Logo.svg";
 import wordmark from "../../../public/WordMark.svg";
-import Link from "next/link";
+import Link from "next/link"; // Import Link from next/link
 
 const Header = () => {
   return (
@@ -13,9 +13,12 @@ const Header = () => {
         </Link>
         <Image src={wordmark} alt="Lexyk" className="over-2000:w-[3.5vw] over-2000:h-auto"/>
       </div>
-      <button className="bg-white hover:bg-gray-50 text-black py-2 px-4 over-2000:py-[0.5vw] over-2000:px-[0.75vw] over-2000:text-[1vw] rounded-xl">
-        <p className="font-inter">Get Started</p>
-      </button>
+      {/* Make the button clickable */}
+      <Link href="/get-started"> {/* IMPORTANT: Replace "/get-started" with your actual destination path */}
+        <button className="bg-white hover:bg-gray-50 text-black py-2 px-4 over-2000:py-[0.5vw] over-2000:px-[0.75vw] over-2000:text-[1vw] rounded-xl">
+          <p className="font-inter">Get Started</p>
+        </button>
+      </Link>
     </header>
   );
 };
