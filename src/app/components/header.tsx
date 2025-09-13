@@ -14,7 +14,7 @@ const Header = () => {
         <Image src={wordmark} alt="Lexyk" className="over-2000:w-[3.5vw] over-2000:h-auto"/>
       </div>
       {/* Make the button clickable */}
-      <Link href="https://play.google.com/store/apps/details?id=com.lexyk.lexyk"> {/* IMPORTANT: Replace "/get-started" with your actual destination path */}
+      <Link href="https://play.google.com/store/apps/details?id=com.lexyk.lexyk"> 
         <button className="bg-white hover:bg-gray-50 text-black py-2 px-4 over-2000:py-[0.5vw] over-2000:px-[0.75vw] over-2000:text-[1vw] rounded-xl">
           <p className="font-inter">Get Started</p>
         </button>
