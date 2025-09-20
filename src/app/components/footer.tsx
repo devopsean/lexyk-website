@@ -59,6 +59,9 @@ function Footer() {
         <Link href="/terms" className="hover:text-white">
           Terms of Service
         </Link>
+        <Link href="/data-deletion" className="hover:text-white">
+          Data Deletion
+        </Link>
         <a href="mailto:support@lexykapp.com" className="hover:text-white">
           Support
         </a>
