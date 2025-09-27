@@ -1,7 +1,7 @@
 import React from 'react'
 import {STRINGS} from '../constants/strings'
 import Googleplaystore from './googleplaystore'
-// import Applestore from './applestore'
+import Applestore from './applestore'
 
 
 function Store() {
@@ -14,7 +14,7 @@ function Store() {
             {STRINGS.aboutapp}
         </p>
         <div className="flex flex-col my-8 over-2000:my-[3vw] xl sm:flex-row gap-4 justify-center">
-            {/* <Applestore/> */}
+            <Applestore/>
             <Googleplaystore/>
         </div>
     </div>

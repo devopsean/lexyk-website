@@ -2,7 +2,12 @@ import React from "react";
 
 function Applestore() {
   return (
-    <div className="flex w-48 h-14 md:min-w-44 lg:w-64 lg:h-16 bg-black text-white rounded-xl over-2000:rounded-[0.8vw] items-center justify-center border border-white over-2000:min-w-[15vw] over-2000:h-auto over-2000:pb-3 over-2000:pt-2">
+    <a
+      href="https://apps.apple.com/ca/app/lexyk/id6752232958"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="relative z-50 flex w-48 h-14 md:min-w-44 lg:w-64 lg:h-16 bg-black text-white rounded-xl over-2000:rounded-[0.8vw] items-center justify-center border border-white over-2000:min-w-[15vw] over-2000:h-auto over-2000:pb-3 over-2000:pt-2"
+    >
       <div className="mr-3">
         <svg
           viewBox="0 0 384 512"
@@ -17,11 +22,11 @@ function Applestore() {
       </div>
       <div>
         <div className="text-xs over-2000:text-[0.8vw]/[1vw]">Download on the</div>
-        <div className="text-2xl over-2000:text-[1.4vw]/[1.2vw] font-semibold font-sans -mt-1 ">
+        <div className="text-xl over-2000:text-[1.4vw]/[1.2vw] font-semibold font-sans -mt-1">
           App Store
         </div>
       </div>
-    </div>
+    </a>
   );
 }
 
