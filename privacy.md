@@ -1,78 +1,118 @@
 # Privacy Policy
 
-The Lexyk app is provided as a free service. This policy is intended to inform users about the collection, use, and disclosure of personal information when using the service.
+The **Lexyk** app is operated by **AlgoPort Inc.** and provides both free and premium services.  
+This Privacy Policy explains how we collect, use, and protect your information when you use the app.  
+By using Lexyk, you agree to the collection and use of information as described in this policy.
 
-By using the app, you agree to the collection and use of information as described in this policy. The personal information collected is used to improve the service and will not be shared except as outlined in this Privacy Policy.
+---
 
 ## Information Collection and Use
 
-For a better experience while using the service, the app may require certain personally identifiable information, including but not limited to:
+We may collect the following types of information to provide and improve our services:
 
-- Name
-- Phone number
-- Date of birth
-- Language
+- **Name or nickname**  
+- **Language preferences**  
+- **Optional profile details** (such as date of birth or region)
 
-This information will be retained on your device and is not collected by the developer in any way.
+Some data may be stored locally on your device, while other information may be securely processed using trusted third-party services (e.g. Firebase). This helps us personalize your experience and improve app performance.
 
-The app uses third-party services that may collect information used to identify you.
+---
 
-### Third-Party Services
+## Automatically Collected Information
 
-Links to the privacy policies of third-party service providers used by the app:
+When you use Lexyk, we may automatically collect:
 
-- [Google Play Services](https://www.google.com/policies/privacy/)
-- [Google Analytics for Firebase](https://firebase.google.com/support/privacy)
+- Device model and operating system  
+- IP address (for analytics and security)  
+- App usage statistics (e.g. sessions completed, duration)  
+- Crash and diagnostic data  
+
+This information helps us maintain app quality and improve performance.
+
+---
+
+## Third-Party Services
+
+Lexyk uses trusted third-party tools to operate and analyze the app.  
+Links to their privacy policies are provided below:
+
+- [Google Play Services](https://policies.google.com/privacy)  
+- [Firebase Analytics](https://firebase.google.com/support/privacy)  
 - [Firebase Crashlytics](https://firebase.google.com/support/privacy)
 
-## Log Data
+These services may collect information such as identifiers or usage data to improve app stability.  
+We do **not** sell or share your data for advertising purposes.
 
-In the event of an error in the app, data and information (through third-party products) on your phone, called Log Data, may be collected. This Log Data may include:
+---
 
-- Your device's Internet Protocol (IP) address
-- Device name
-- Operating system version
-- App configuration when using the service
-- Time and date of use
-- Other statistics
+## Subscriptions and Payments
 
-## Cookies
+Lexyk offers optional paid subscriptions to unlock premium content.  
+All payments are processed securely through **Apple’s App Store** and **Google Play Billing**.  
+We do **not** collect or store any payment or card information on our servers.  
+You can manage or cancel subscriptions anytime through your app store account settings.
 
-Cookies are small data files that are commonly used as anonymous unique identifiers. These are sent to your browser from websites you visit and are stored on your device's internal memory.
+---
 
-This service does not explicitly use cookies. However, the app may use third-party code and libraries that use cookies to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. Refusing cookies may limit your ability to use certain portions of the service.
+## Data Retention and Deletion
 
-## Service Providers
+We keep your information only as long as necessary to provide the service.  
+You may request data deletion or export at any time by emailing **support@lexykapp.com**.  
+Once verified, we will remove or anonymize your personal data in accordance with applicable laws.
 
-Third-party companies and individuals may be employed to:
+---
 
-- Facilitate the service
-- Provide the service on our behalf
-- Perform service-related tasks
-- Assist in analyzing how the service is used
+## Data Protection Rights (GDPR / PIPEDA / CCPA)
 
-These third parties have access to your personal information to perform tasks on our behalf but are obligated not to disclose or use it for any other purpose.
+Depending on your region, you may have the right to:
+
+- Access or request a copy of your personal data  
+- Request correction or deletion  
+- Withdraw consent to data processing  
+- File a complaint with a data protection authority  
+
+We respond to all valid requests within 30 days.
+
+---
 
 ## Security
 
-Your trust in providing personal information is valued, and commercially acceptable means of protecting it are employed. However, no method of transmission over the internet or electronic storage is 100% secure and reliable, and absolute security cannot be guaranteed.
+We use reasonable technical and organizational measures to protect your data.  
+However, no method of transmission over the internet or electronic storage is 100% secure.  
+We cannot guarantee absolute protection, but we take your privacy seriously.
 
-## Links to Other Sites
-
-The service may contain links to external sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by the developer, and users are strongly advised to review the privacy policies of these websites. The developer has no control over and assumes no responsibility for the content, privacy policies, or practices of third-party sites or services.
+---
 
 ## Children’s Privacy
 
-These services do not address anyone under the age of 13. Personal information from children under 13 is not knowingly collected. If it is discovered that a child under 13 has provided personal information, it will be immediately deleted from our servers. If you are a parent or guardian and you are aware that your child has provided personal information, please contact us to take necessary actions.
+Lexyk is not directed toward children under 13 years old.  
+We do not knowingly collect personal information from children.  
+If you believe a child has provided us with personal data, please contact us so we can delete it immediately.
+
+---
+
+## Links to Other Sites
+
+The app may contain links to external websites not operated by us.  
+We are not responsible for the content or privacy practices of third-party sites.  
+We encourage you to review their privacy policies before interacting with them.
+
+---
 
 ## Changes to This Privacy Policy
 
-The Privacy Policy may be updated periodically. Users are advised to review this page periodically for any changes. Notifications of changes will be posted on this page.
+We may update this Privacy Policy from time to time.  
+Updates will be posted on this page with a new **“Effective Date.”**  
+You are encouraged to review this policy periodically for any changes.
 
-This policy is effective as of **2024-07-28**.
+**Effective Date:** July 28, 2024  
+**Last Updated:** October 6, 2025
+
+---
 
 ## Contact Us
 
-If you have any questions or suggestions about this Privacy Policy, do not hesitate to contact us at:
+If you have any questions, requests, or concerns about this Privacy Policy, please contact us at:
 
-**support@lexykapp.com**
+**support@lexykapp.com**  
+**https://www.lexykapp.com**
