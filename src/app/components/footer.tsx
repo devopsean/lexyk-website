@@ -3,14 +3,14 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <footer className="bg-black flex flex-col md:flex-row justify-between items-center text-sm text-white max-w-screen-2xl over-2000:max-w-[80vw] mx-auto">
-      <div className="flex flex-col mb-4 md:mb-0 over-2000:my-[0.5vw]">
-        <p className="m-5 over-1300:text-[0.85vw]/[2vw]">© 2025 Lexyk by AlgoPort Inc. All rights reserved.</p>
-        <div className="flex gap-6 mx-5 mb-5">
+    <footer className="bg-black flex flex-col md:flex-row justify-between items-center text-xs sm:text-sm text-white max-w-screen-2xl over-2000:max-w-[80vw] mx-auto px-4 sm:px-6 py-6 md:py-4">
+      <div className="flex flex-col mb-4 md:mb-0 over-2000:my-[0.5vw] items-center md:items-start">
+        <p className="mb-3 sm:mb-4 md:m-5 over-1300:text-[0.85vw]/[2vw] text-center md:text-left">© 2025 Lexyk by AlgoPort Inc. All rights reserved.</p>
+        <div className="flex gap-4 sm:gap-6 md:mx-5 mb-3 sm:mb-4 md:mb-5">
           {/* <Link href="#" className="hover:text-white">
             <span className="sr-only">Twitter</span>
             <svg
-              className="w-5 h-5 over-1300:w-[1vw] over-1300:h-auto"
+              className="w-4 h-4 sm:w-5 sm:h-5 over-1300:w-[1vw] over-1300:h-auto"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
@@ -21,7 +21,7 @@ function Footer() {
           <Link href="#" className="hover:text-white">
             <span className="sr-only">GitHub</span>
             <svg
-              className="w-5 h-5 over-1300:w-[1vw] over-1300:h-auto"
+              className="w-4 h-4 sm:w-5 sm:h-5 over-1300:w-[1vw] over-1300:h-auto"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
@@ -34,10 +34,10 @@ function Footer() {
             </svg>
           </Link> */}
 
-          <Link href="https://www.linkedin.com/company/lexyk-app" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+          <Link href="https://www.linkedin.com/company/lexyk-app" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors">
             <span className="sr-only">LinkedIn</span>
             <svg
-              className="w-5 h-5 over-1300:w-[1vw] over-1300:h-auto"
+              className="w-4 h-4 sm:w-5 sm:h-5 over-1300:w-[1vw] over-1300:h-auto"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
@@ -52,17 +52,17 @@ function Footer() {
         </div>
       </div>
 
-      <div className="flex gap-6 mt-4 md:mt-0 mx-5 over-2000:mt-[1vw] over-1300:text-[0.85vw]">
-        <Link href="/privacy" className="hover:text-white">
+      <div className="flex flex-wrap justify-center md:justify-end gap-3 sm:gap-4 md:gap-6 mt-2 md:mt-0 md:mx-5 over-2000:mt-[1vw] over-1300:text-[0.85vw]">
+        <Link href="/privacy" className="hover:text-gray-300 transition-colors">
           Privacy Policy
         </Link>
-        <Link href="/terms" className="hover:text-white">
+        <Link href="/terms" className="hover:text-gray-300 transition-colors">
           Terms of Service
         </Link>
-        <Link href="/data-deletion" className="hover:text-white">
+        <Link href="/data-deletion" className="hover:text-gray-300 transition-colors">
           Data Deletion
         </Link>
-        <a href="mailto:support@lexykapp.com" className="hover:text-white">
+        <a href="mailto:support@lexykapp.com" className="hover:text-gray-300 transition-colors">
           Support
         </a>
       </div>

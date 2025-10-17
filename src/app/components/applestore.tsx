@@ -6,13 +6,13 @@ function Applestore() {
       href="https://apps.apple.com/ca/app/lexyk/id6752232958"
       target="_blank"
       rel="noopener noreferrer"
-      className="relative z-50 flex w-48 h-14 md:min-w-44 lg:w-64 lg:h-16 bg-black text-white rounded-xl over-2000:rounded-[0.8vw] items-center justify-center border border-white over-2000:min-w-[15vw] over-2000:h-auto over-2000:pb-3 over-2000:pt-2"
+      className="relative z-50 flex w-44 h-12 sm:w-48 sm:h-14 md:min-w-44 lg:w-64 lg:h-16 bg-black text-white rounded-lg sm:rounded-xl over-2000:rounded-[0.8vw] items-center justify-center border border-white over-2000:min-w-[15vw] over-2000:h-auto over-2000:pb-3 over-2000:pt-2 hover:bg-gray-900 transition-colors"
     >
-      <div className="mr-3">
+      <div className="mr-2 sm:mr-3">
         <svg
           viewBox="0 0 384 512"
-          width="30"
-          className="over-2000:w-[2.5vw] over-2000:h-[2.5vw]"
+          width="24"
+          className="sm:w-[30px] over-2000:w-[2.5vw] over-2000:h-[2.5vw]"
         >
           <path
             fill="currentColor"
@@ -21,8 +21,8 @@ function Applestore() {
         </svg>
       </div>
       <div>
-        <div className="text-xs over-2000:text-[0.8vw]/[1vw]">Download on the</div>
-        <div className="text-xl over-2000:text-[1.4vw]/[1.2vw] font-semibold font-sans -mt-1">
+        <div className="text-[10px] sm:text-xs over-2000:text-[0.8vw]/[1vw]">Download on the</div>
+        <div className="text-base sm:text-xl over-2000:text-[1.4vw]/[1.2vw] font-semibold font-sans -mt-1">
           App Store
         </div>
       </div>
