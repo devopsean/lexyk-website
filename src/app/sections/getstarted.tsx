@@ -6,17 +6,17 @@ import Helix from "../../../public/Helix.png";
 
 function Getstarted() {
   return (
-    <div className="relative text-center py-12 sm:py-16 md:py-20 px-4 sm:px-6">
+    <div className="relative text-center py-12 sm:py-16 md:py-20 px-4 sm:px-6 overflow-hidden">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 sm:gap-10 md:gap-12 items-center">
-        {/* Pyramid - Hidden on mobile and tablet, visible on desktop */}
-        <div className="relative hidden lg:block">
-          <div className="scale-125 -translate-y-[80px] over-2000:-translate-y-[4vw] translate-x-[60px] over-2000:translate-x-[5vw]">
-            <Image className="over-2000:w-[30vw] over-2000:h-auto" src={Pyramid} alt="Pyramid" />
+        {/* Pyramid - Scaled for mobile, full size on desktop */}
+        <div className="absolute bottom-0 left-0 lg:relative lg:bottom-auto lg:left-auto z-0">
+          <div className="w-28 sm:w-36 md:w-44 lg:w-auto opacity-60 lg:opacity-100 lg:scale-125 translate-x-2 translate-y-8 sm:translate-x-4 sm:translate-y-12 md:translate-x-6 md:translate-y-16 lg:-translate-y-[80px] over-2000:-translate-y-[4vw] lg:translate-x-[60px] over-2000:translate-x-[5vw]">
+            <Image className="w-full h-auto over-2000:w-[30vw] over-2000:h-auto" src={Pyramid} alt="Pyramid" />
           </div>
         </div>
 
         {/* Main content */}
-        <div className="px-4">
+        <div className="relative z-10 px-4">
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-4xl xl:text-6xl 2xl:text-7xl over-2000:text-[3.5vw] lg:mx-4 xl:mx-6 my-4 sm:my-5 lg:my-5 xl:my-7 font-bold mb-4 sm:mb-6 flex items-center justify-center gap-4">
             {STRINGS.section4}
           </h2>
@@ -28,10 +28,10 @@ function Getstarted() {
           </button>
         </div>
 
-        {/* Helix - Hidden on mobile and tablet, visible on desktop */}
-        <div className="relative overflow-hidden hidden lg:block">
-          <div className="scale-90 translate-y-[75px] over-1300:translate-y-[100px] over-2000:translate-y-[7vw] -left-full translate-x-[30px] over-2000:translate-x-[3.5vw]">
-            <Image className="over-2000:w-[30vw] over-2000:h-auto" src={Helix} alt="Helix" />
+        {/* Helix - Scaled for mobile, full size on desktop */}
+        <div className="absolute bottom-0 right-0 lg:relative lg:bottom-auto lg:right-auto overflow-hidden z-0">
+          <div className="w-28 sm:w-36 md:w-44 lg:w-auto opacity-60 lg:opacity-100 lg:scale-90 translate-x-2 translate-y-8 sm:translate-x-4 sm:translate-y-12 md:translate-x-6 md:translate-y-16 lg:translate-y-[75px] over-1300:translate-y-[100px] over-2000:translate-y-[7vw] lg:-left-full lg:translate-x-[30px] over-2000:translate-x-[3.5vw]">
+            <Image className="w-full h-auto over-2000:w-[30vw] over-2000:h-auto" src={Helix} alt="Helix" />
           </div>
         </div>
       </div>
