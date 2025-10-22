@@ -11,7 +11,7 @@ function Getstarted() {
         {/* Pyramid - Scaled for mobile, full size on desktop */}
         <div className="absolute bottom-0 left-0 lg:relative lg:bottom-auto lg:left-auto z-0">
           <div className="w-28 sm:w-36 md:w-44 lg:w-auto opacity-60 lg:opacity-100 lg:scale-125 translate-x-2 translate-y-8 sm:translate-x-4 sm:translate-y-12 md:translate-x-6 md:translate-y-16 lg:-translate-y-[80px] over-2000:-translate-y-[4vw] lg:translate-x-[60px] over-2000:translate-x-[5vw]">
-            <Image className="w-full h-auto over-2000:w-[30vw] over-2000:h-auto" src={Pyramid} alt="Pyramid" />
+            <Image className="w-full h-auto over-2000:w-[30vw] over-2000:h-auto" src={Pyramid} alt="Pyramid shape representing structured vocabulary building foundation" />
           </div>
         </div>
 
@@ -31,7 +31,7 @@ function Getstarted() {
         {/* Helix - Scaled for mobile, full size on desktop */}
         <div className="absolute bottom-0 right-0 lg:relative lg:bottom-auto lg:right-auto overflow-hidden z-0">
           <div className="w-28 sm:w-36 md:w-44 lg:w-auto opacity-60 lg:opacity-100 lg:scale-90 translate-x-2 translate-y-8 sm:translate-x-4 sm:translate-y-12 md:translate-x-6 md:translate-y-16 lg:translate-y-[75px] over-1300:translate-y-[100px] over-2000:translate-y-[7vw] lg:-left-full lg:translate-x-[30px] over-2000:translate-x-[3.5vw]">
-            <Image className="w-full h-auto over-2000:w-[30vw] over-2000:h-auto" src={Helix} alt="Helix" />
+            <Image className="w-full h-auto over-2000:w-[30vw] over-2000:h-auto" src={Helix} alt="Helix spiral representing upward vocabulary learning progression" />
           </div>
         </div>
       </div>

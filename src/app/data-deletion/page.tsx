@@ -1,4 +1,22 @@
 import React from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Data Deletion Instructions",
+  description: "Learn how to delete your Lexykapp account and personal data. Follow our simple step-by-step instructions for account deletion.",
+  openGraph: {
+    title: "Data Deletion Instructions - Lexykapp",
+    description: "Instructions for deleting your Lexykapp account and personal data.",
+    url: "https://www.lexykapp.com/data-deletion",
+  },
+  alternates: {
+    canonical: "https://www.lexykapp.com/data-deletion",
+  },
+  robots: {
+    index: false,
+    follow: true,
+  },
+};
 
 export default function DataDeletion() {
   return (

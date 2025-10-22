@@ -19,7 +19,7 @@ function Features() {
                     <Image
                         className='w-12 h-12 sm:w-14 sm:h-14 over-2000:w-[3vw] over-2000:h-auto'
                         src={feature1}
-                        alt="Robot"
+                        alt="Curated vocabulary lists icon for French, Spanish, and English learning"
                     />
                 </div>
                 <h3 className='text-base sm:text-lg over-2000:text-[1vw]/[1.5vw] font-semibold mb-2'>{STRINGS.section3items.item1.title}</h3>
@@ -30,7 +30,7 @@ function Features() {
                     <Image
                         className='w-12 h-12 sm:w-14 sm:h-14 over-2000:w-[3vw] over-2000:h-auto'
                         src={feature2}
-                        alt='Rocket'
+                        alt='Goal setting and tracking icon for vocabulary learning progress'
                     />
                 </div>
                 <h3 className='text-base sm:text-lg over-2000:text-[1vw]/[1.5vw] font-semibold mb-2'>{STRINGS.section3items.item2.title}</h3>
@@ -41,7 +41,7 @@ function Features() {
                     <Image 
                         className='w-12 h-12 sm:w-14 sm:h-14 over-2000:w-[3vw] over-2000:h-auto'
                         src={feature3}
-                        alt='Fire'
+                        alt='Personalized vocabulary lists icon for custom language learning'
                     />
                 </div>
                 <h3 className='text-base sm:text-lg over-2000:text-[1vw]/[1.5vw] font-semibold mb-2'>{STRINGS.section3items.item3.title}</h3>

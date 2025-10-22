@@ -4,6 +4,20 @@ import remarkGfm from "remark-gfm";
 import fs from "fs";
 import path from "path";
 import Header2 from "../components/header2";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Terms of Service",
+  description: "Read Lexykapp's terms of service for using our vocabulary learning app and language learning platform.",
+  openGraph: {
+    title: "Terms of Service - Lexykapp",
+    description: "Terms of service for using Lexykapp's vocabulary learning platform.",
+    url: "https://www.lexykapp.com/terms",
+  },
+  alternates: {
+    canonical: "https://www.lexykapp.com/terms",
+  },
+};
 
 export default async function Term() {
   const filePath = path.join(process.cwd(), "terms.md");

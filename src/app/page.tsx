@@ -7,8 +7,14 @@ import How from "./sections/how";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Lexykapp",
-  description: "The official Webpage for Lexykapp",
+  title: "Home",
+  description: "Boost your vocabulary with Lexykapp! Learn French, Spanish, and English words through personalized flashcards. Set goals, track progress, and master words that matter to you.",
+  openGraph: {
+    title: "Lexykapp - Learn French, Spanish & English Vocabulary",
+    description: "Master new words with personalized flashcards. Track your progress and achieve your language learning goals.",
+    url: "https://www.lexykapp.com",
+    type: "website",
+  },
 };
 
 export default function Home() {

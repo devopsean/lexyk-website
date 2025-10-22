@@ -8,10 +8,10 @@ const Header = () => {
   return (
     <header className="bg-black text-white px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between max-w-screen-2xl over-2000:max-w-[80vw] mx-auto">
       <div className="flex items-center text-2xl font-bold">
-        <Link href="/" className="hover:text-gray-300 mr-2 sm:mr-3">
-          <Image src={logo} alt="Logo" className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 over-2000:w-[3.5vw] over-2000:h-auto"/>
+        <Link href="/" className="hover:text-gray-300 mr-2 sm:mr-3" aria-label="Go to Lexykapp homepage">
+          <Image src={logo} alt="Lexykapp logo - vocabulary learning app for French, Spanish, and English" className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 over-2000:w-[3.5vw] over-2000:h-auto"/>
         </Link>
-        <Image src={wordmark} alt="Lexyk" className="w-16 h-auto sm:w-20 md:w-24 over-2000:w-[3.5vw] over-2000:h-auto"/>
+        <Image src={wordmark} alt="Lexykapp wordmark" className="w-16 h-auto sm:w-20 md:w-24 over-2000:w-[3.5vw] over-2000:h-auto"/>
       </div>
       {/* Make the button clickable */}
       <Link href="https://play.google.com/store/apps/details?id=com.lexyk.lexyk"> 

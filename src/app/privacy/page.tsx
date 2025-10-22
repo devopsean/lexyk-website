@@ -4,6 +4,20 @@ import remarkGfm from "remark-gfm";
 import fs from "fs";
 import path from "path";
 import Header2 from "../components/header2";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  description: "Learn about Lexykapp's privacy policy and how we protect your data while you learn vocabulary and improve your language skills.",
+  openGraph: {
+    title: "Privacy Policy - Lexykapp",
+    description: "Learn about Lexykapp's privacy policy and data protection practices.",
+    url: "https://www.lexykapp.com/privacy",
+  },
+  alternates: {
+    canonical: "https://www.lexykapp.com/privacy",
+  },
+};
 
 export default async function Privacy() {
   // Read the markdown file at runtime

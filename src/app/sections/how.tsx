@@ -12,7 +12,7 @@ function How() {
         <Image
           className="section-divider w-full h-auto object-cover"
           src={bgEllipse2}
-          alt="divider"
+          alt="Gradient ellipse divider section background"
         />
       </div>
 
