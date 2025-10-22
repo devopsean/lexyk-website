@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/privacy', priority: 0.5, changeFrequency: 'monthly' as const },
     { path: '/terms', priority: 0.5, changeFrequency: 'monthly' as const },
     { path: '/data-deletion', priority: 0.3, changeFrequency: 'yearly' as const },
+    { path: '/delete-account', priority: 0.7, changeFrequency: 'monthly' as const },
   ]
 
   const sitemap: MetadataRoute.Sitemap = []
