@@ -2,7 +2,8 @@ import React from "react";
 import Image from "next/image";
 import logo from "../../../public/Logo.svg";
 import wordmark from "../../../public/WordMark.svg";
-import Link from "next/link"; // Import Link from next/link
+import Link from "next/link";
+import LanguageSwitcher from "./language-switcher";
 
 const Header = () => {
   return (
@@ -13,12 +14,15 @@ const Header = () => {
         </Link>
         <Image src={wordmark} alt="Lexykapp wordmark" className="w-16 h-auto sm:w-20 md:w-24 over-2000:w-[3.5vw] over-2000:h-auto"/>
       </div>
-      {/* Make the button clickable */}
-      <Link href="https://play.google.com/store/apps/details?id=com.lexyk.lexyk"> 
-        <button className="bg-white hover:bg-gray-50 text-black text-xs sm:text-sm md:text-base py-2 px-3 sm:py-2 sm:px-4 md:py-2 md:px-4 over-2000:py-[0.5vw] over-2000:px-[0.75vw] over-2000:text-[1vw] rounded-lg sm:rounded-xl">
-          <p className="font-inter">Get Started</p>
-        </button>
-      </Link>
+      <div className="flex items-center gap-2 sm:gap-4">
+        <LanguageSwitcher />
+        {/* Make the button clickable */}
+        <Link href="https://play.google.com/store/apps/details?id=com.lexyk.lexyk"> 
+          <button className="bg-white hover:bg-gray-50 text-black text-xs sm:text-sm md:text-base py-2 px-3 sm:py-2 sm:px-4 md:py-2 md:px-4 over-2000:py-[0.5vw] over-2000:px-[0.75vw] over-2000:text-[1vw] rounded-lg sm:rounded-xl">
+            <p className="font-inter">Get Started</p>
+          </button>
+        </Link>
+      </div>
     </header>
   );
 };

@@ -73,6 +73,7 @@ export const metadata: Metadata = {
 
 import StructuredData from "./components/structured-data";
 import Analytics from "./components/analytics";
+import HrefLangTags from "./components/hreflang-tags";
 
 export default function RootLayout({
   children,
@@ -83,6 +84,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+        <HrefLangTags />
         <StructuredData />
       </head>
       <body

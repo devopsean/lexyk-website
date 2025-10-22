@@ -5,3 +5,8 @@ Allow: /
 # Sitemaps
 Sitemap: https://www.lexykapp.com/sitemap.xml
 
+# Allow all language versions
+Allow: /en/
+Allow: /es/
+Allow: /fr/
+

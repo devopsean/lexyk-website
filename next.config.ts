@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
   compress: true,
   poweredByHeader: false,
   reactStrictMode: true,
+  // Note: i18n for App Router is handled via middleware and [locale] routing
 };
 
 export default nextConfig;

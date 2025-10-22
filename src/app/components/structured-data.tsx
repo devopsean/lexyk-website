@@ -1,15 +1,24 @@
+"use client";
+
 import React from 'react';
+import { usePathname } from 'next/navigation';
+import { getLocaleFromPath, getTranslations, type Locale } from '@/lib/translations';
 
 export default function StructuredData() {
+  const pathname = usePathname();
+  const locale = getLocaleFromPath(pathname) as Locale;
+  const translations = getTranslations(locale);
+
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Lexykapp",
     "url": "https://www.lexykapp.com",
     "logo": "https://www.lexykapp.com/Logo.svg",
-    "description": "Boost your vocabulary with Lexykapp! Learn French, Spanish, and English words through personalized flashcards.",
+    "description": translations.metadata.description,
     "sameAs": [
-      "https://www.tiktok.com/@lexykapp"
+      "https://www.tiktok.com/@lexykapp",
+      "https://www.linkedin.com/company/lexyk-app"
     ],
     "contactPoint": {
       "@type": "ContactPoint",
@@ -24,8 +33,9 @@ export default function StructuredData() {
     "name": "Lexykapp",
     "url": "https://www.lexykapp.com",
     "applicationCategory": "EducationalApplication",
-    "description": "Vocabulary learning app for French, Spanish, and English. Learn words through personalized flashcards, set goals, and track your progress.",
+    "description": translations.metadata.description,
     "operatingSystem": "iOS, Android",
+    "inLanguage": [locale, "en", "es", "fr"],
     "offers": {
       "@type": "Offer",
       "price": "0",
@@ -48,16 +58,17 @@ export default function StructuredData() {
     "name": "Lexykapp",
     "applicationCategory": "EducationalApplication",
     "operatingSystem": "iOS, Android",
-    "description": "Master French, Spanish, and English vocabulary with personalized flashcards. Track your progress and achieve your language learning goals.",
+    "description": translations.metadata.description,
+    "inLanguage": [locale, "en", "es", "fr"],
     "offers": {
       "@type": "Offer",
       "price": "0",
       "priceCurrency": "USD"
     },
     "featureList": [
-      "Curated vocabulary lists",
-      "Goal setting and tracking",
-      "Personalized flashcards",
+      translations.sections.features.item1.title,
+      translations.sections.features.item2.title,
+      translations.sections.features.item3.title,
       "Multi-language support (French, Spanish, English)",
       "Progress tracking",
       "Custom vocabulary lists"

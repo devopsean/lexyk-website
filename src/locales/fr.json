@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "title": "Lexykapp - Apprenez du Vocabulaire | Anglais, Français et Espagnol",
+    "description": "Améliorez votre vocabulaire avec Lexykapp ! Apprenez des mots en anglais, français et espagnol avec des cartes personnalisées. Suivez vos progrès et maîtrisez les mots qui vous importent vraiment.",
+    "keywords": "apprendre vocabulaire, app pour apprendre les langues, apprendre anglais, apprendre français, apprendre espagnol, cartes mémoire, app vocabulaire, application langues, vocabulaire anglais, vocabulaire français, vocabulaire espagnol, apprendre mots, flashcards"
+  },
+  "nav": {
+    "home": "Accueil",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "dataDelection": "Suppression des Données",
+    "support": "Assistance"
+  },
+  "hero": {
+    "welcome": "Améliorez votre vocabulaire !",
+    "subtitle": "Apprenez des mots en anglais, français et espagnol qui vous importent vraiment. Commencez votre aventure d'apprentissage personnalisé avec des cartes intelligentes.",
+    "cta": "Commencer"
+  },
+  "sections": {
+    "howItWorks": {
+      "title": "Comment ça marche",
+      "description": "Maîtrisez un nouveau vocabulaire en anglais, français et espagnol. Apprenez des mots n'importe où, n'importe quand et améliorez vos compétences linguistiques en parcourant des cartes personnalisées."
+    },
+    "features": {
+      "title": "Tout ce dont vous avez besoin",
+      "description": "Profitez de listes de vocabulaire personnalisables pour l'anglais, le français et l'espagnol, ainsi que d'un suivi intelligent des progrès, le tout en un seul endroit. Définissez des objectifs d'apprentissage, recevez des rappels et suivez vos progrès linguistiques simplement et rapidement.",
+      "item1": {
+        "title": "Listes de vocabulaire sélectionnées",
+        "description": "Accédez à des listes de mots soigneusement sélectionnées pour l'anglais, le français et l'espagnol. Concentrez-vous sur le vocabulaire pertinent pour vos objectifs et intérêts d'apprentissage."
+      },
+      "item2": {
+        "title": "Définition et suivi des objectifs",
+        "description": "Définissez et suivez vos objectifs d'apprentissage des langues. Divisez les objectifs de vocabulaire en tâches quotidiennes réalisables et regardez vos progrès grandir."
+      },
+      "item3": {
+        "title": "Apprenez les mots qui comptent",
+        "description": "Créez vos propres listes de vocabulaire personnalisées pour l'anglais, le français ou l'espagnol. Passez les mots que vous connaissez déjà et concentrez-vous sur ce qui compte vraiment pour vous."
+      }
+    },
+    "cta": {
+      "title": "Améliorez votre vocabulaire !",
+      "description": "Célébrez la joie de l'accomplissement avec une application d'apprentissage du vocabulaire conçue pour suivre vos progrès en anglais, français et espagnol et motiver vos efforts d'apprentissage des langues.",
+      "button": "Commencer"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Lexyk par AlgoPort Inc. Tous droits réservés.",
+    "followUs": "Suivez-nous"
+  }
+}
+

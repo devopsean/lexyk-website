@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "title": "Lexykapp - Aprenda Vocabulário | Inglês, Francês e Espanhol",
+    "description": "Melhore seu vocabulário com Lexykapp! Aprenda palavras em inglês, francês e espanhol através de cartões personalizados. Acompanhe seu progresso e domine as palavras que importam para você.",
+    "keywords": "aprender vocabulário, aprendizado de idiomas, aprender inglês, aprender francês, aprender espanhol, aplicativo de cartões, app de vocabulário, aplicativo de idiomas, vocabulário inglês, vocabulário francês, vocabulário espanhol, aprender palavras"
+  },
+  "nav": {
+    "home": "Início",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "dataDelection": "Exclusão de Dados",
+    "support": "Suporte"
+  },
+  "hero": {
+    "welcome": "Melhore seu vocabulário!",
+    "subtitle": "Aprenda palavras em inglês, francês e espanhol que importam para você. Comece sua aventura de aprendizado personalizado com cartões inteligentes.",
+    "cta": "Começar"
+  },
+  "sections": {
+    "howItWorks": {
+      "title": "Como funciona",
+      "description": "Domine novo vocabulário em inglês, francês e espanhol. Aprenda palavras em qualquer lugar, a qualquer momento e melhore suas habilidades linguísticas deslizando cartões personalizados."
+    },
+    "features": {
+      "title": "Tudo que você precisa",
+      "description": "Desfrute de listas de vocabulário personalizáveis para inglês, francês e espanhol, além de acompanhamento inteligente de progresso, tudo em um só lugar. Defina objetivos de aprendizado, receba lembretes e acompanhe seu progresso linguístico de forma simples e rápida.",
+      "item1": {
+        "title": "Listas de vocabulário curadas",
+        "description": "Acesse listas de palavras especializadas para inglês, francês e espanhol. Concentre-se no vocabulário relevante para seus objetivos e interesses de aprendizado."
+      },
+      "item2": {
+        "title": "Definição e acompanhamento de objetivos",
+        "description": "Defina e acompanhe seus objetivos de aprendizado de idiomas. Divida os objetivos de vocabulário em tarefas diárias alcançáveis e veja seu progresso crescer."
+      },
+      "item3": {
+        "title": "Aprenda palavras que importam",
+        "description": "Crie suas próprias listas de vocabulário personalizadas para inglês, francês ou espanhol. Pule palavras que você já conhece e concentre-se no que importa para você."
+      }
+    },
+    "cta": {
+      "title": "Melhore seu vocabulário!",
+      "description": "Celebre a alegria da conquista com um aplicativo de aprendizado de vocabulário projetado para acompanhar seu progresso em inglês, francês e espanhol e motivar seus esforços de aprendizado de idiomas.",
+      "button": "Começar"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Lexyk por AlgoPort Inc. Todos os direitos reservados.",
+    "followUs": "Siga-nos"
+  }
+}
+

@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "title": "Lexykapp - Vocabulary Learning App | Learn French, Spanish & English",
+    "description": "Boost your vocabulary with Lexykapp! Learn French, Spanish, and English words through personalized flashcards. Track your progress and master new words that matter to you.",
+    "keywords": "vocabulary builder, language learning, learn French, learn Spanish, learn English, flashcards app, vocabulary app, language learning app, French vocabulary, Spanish vocabulary, English vocabulary, word learning, vocabulary practice"
+  },
+  "nav": {
+    "home": "Home",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "dataDelection": "Data Deletion",
+    "support": "Support"
+  },
+  "hero": {
+    "welcome": "Boost your vocabulary!",
+    "subtitle": "Learn French, Spanish, and English words that matter to you. Start your personalized language learning adventure with smart flashcards.",
+    "cta": "Get Started"
+  },
+  "sections": {
+    "howItWorks": {
+      "title": "How it works",
+      "description": "Master new vocabulary in French, Spanish, and English. Learn words anywhere, anytime and improve your language skills by swiping through personalized flashcards."
+    },
+    "features": {
+      "title": "Everything you need",
+      "description": "Enjoy customizable vocabulary lists for French, Spanish, and English, plus smart progress tracking all in one place. Set learning goals, get reminders, and track your language progress simply and quickly.",
+      "item1": {
+        "title": "Curated vocabulary lists",
+        "description": "Access expertly curated word lists for French, Spanish, and English. Focus on vocabulary that's relevant to your learning goals and interests."
+      },
+      "item2": {
+        "title": "Goal setting and tracking",
+        "description": "Define and track your language learning goals. Break down vocabulary objectives into achievable daily tasks and watch your progress grow."
+      },
+      "item3": {
+        "title": "Learn words that matter",
+        "description": "Create your own personalized vocabulary lists for French, Spanish, or English. Skip words you already know and focus on what matters to you."
+      }
+    },
+    "cta": {
+      "title": "Improve your vocabulary!",
+      "description": "Celebrate the joy of accomplishment with a vocabulary learning app designed to track your French, Spanish, and English progress and motivate your language learning efforts.",
+      "button": "Get Started"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Lexyk by AlgoPort Inc. All rights reserved.",
+    "followUs": "Follow us"
+  }
+}
+
