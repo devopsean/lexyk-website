@@ -226,6 +226,32 @@ export default function DeleteAccount() {
             </ul>
           </div>
 
+          {/* Quick Instructions Link */}
+          <div className="bg-gradient-to-r from-[#150D38]/50 to-[#2C1D73]/50 rounded-xl p-5 sm:p-6 border border-[#5E4CC9]/20 mb-6 sm:mb-8">
+            <div className="flex items-start gap-4">
+              <svg className="w-6 h-6 sm:w-7 sm:h-7 text-[#7B6FE8] flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+              <div>
+                <h3 className="text-lg sm:text-xl lg:text-[1.6vw] over-2000:text-[1.3vw] font-bold mb-2 text-white">
+                  Need Quick Instructions?
+                </h3>
+                <p className="text-gray-300 text-sm sm:text-base lg:text-[1.3vw] over-2000:text-[1vw] mb-3 leading-relaxed">
+                  For a simplified, step-by-step guide without the extra details, check out our quick data deletion instructions.
+                </p>
+                <Link
+                  href="/data-deletion"
+                  className="inline-flex items-center gap-2 text-[#7B6FE8] hover:text-[#A29EE8] font-semibold transition-colors text-sm sm:text-base lg:text-[1.3vw] over-2000:text-[1vw] group"
+                >
+                  View Quick Guide
+                  <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  </svg>
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* Contact & Privacy Link */}
           <div className="text-center space-y-4 sm:space-y-6">
             <div className="bg-gradient-to-r from-[#1C114D] to-[#2C1D73] rounded-xl p-5 sm:p-6 border border-[#5E4CC9]/30">
