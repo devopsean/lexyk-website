@@ -2,6 +2,10 @@ import React from "react";
 import Header2 from "../components/header2";
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
+import stars from "../../../public/Stars.svg";
+import pyramid from "../../../public/Pyramid.png";
+import helix from "../../../public/Helix.png";
 
 export const metadata: Metadata = {
   title: "Delete Your Account",
@@ -24,12 +28,51 @@ export default function DeleteAccount() {
   return (
     <div
       id="page-wrapper"
-      className="bg-black origin-top-left transition-transform overflow-hidden min-h-screen"
+      className="bg-black origin-top-left transition-transform overflow-hidden min-h-screen relative"
     >
       <Header2 />
       
+      {/* Background decorative elements */}
+      <div className="absolute inset-0 w-full overflow-hidden pointer-events-none">
+        {/* Stars background */}
+        <div className="absolute inset-0 w-full z-0 opacity-30">
+          <Image
+            className="w-full h-auto"
+            src={stars}
+            alt="Decorative stars background"
+            priority
+          />
+        </div>
+        
+        {/* Pyramid - Bottom Left */}
+        <div className="absolute bottom-0 left-0 z-0">
+          <div className="w-32 sm:w-40 md:w-48 lg:w-64 xl:w-80 over-2000:w-[20vw] opacity-40 lg:opacity-50 translate-x-[-20%] translate-y-[10%]">
+            <Image 
+              className="w-full h-auto" 
+              src={pyramid} 
+              alt="Decorative pyramid" 
+            />
+          </div>
+        </div>
+        
+        {/* Helix - Top Right */}
+        <div className="absolute top-20 right-0 z-0">
+          <div className="w-32 sm:w-40 md:w-48 lg:w-64 xl:w-80 over-2000:w-[20vw] opacity-40 lg:opacity-50 translate-x-[20%] -translate-y-[10%]">
+            <Image 
+              className="w-full h-auto" 
+              src={helix} 
+              alt="Decorative helix" 
+            />
+          </div>
+        </div>
+        
+        {/* Gradient overlays */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black z-[1]"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#1C114D]/30 via-transparent to-[#2C1D73]/30 z-[1]"></div>
+      </div>
+      
       {/* Main Content */}
-      <div className="flex items-center justify-center px-4 sm:px-6">
+      <div className="relative z-10 flex items-center justify-center px-4 sm:px-6">
         <div className="text-white p-4 sm:p-6 md:p-8 lg:mx-4 xl:mx-6 my-4 sm:my-6 lg:my-8 xl:my-10 max-w-4xl over-2000:max-w-[60vw] w-full">
           
           {/* Header Section */}
@@ -229,9 +272,6 @@ export default function DeleteAccount() {
 
         </div>
       </div>
-
-      {/* Footer gradient effect */}
-      <div className="h-32 sm:h-40 md:h-48 bg-gradient-to-t from-black via-[#150D38] to-transparent"></div>
     </div>
   );
 }
