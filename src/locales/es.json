@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "Lexykapp - Aprende Vocabulario | Inglés, Francés y Español",
-    "description": "¡Mejora tu vocabulario con Lexykapp! Aprende palabras en inglés, francés y español con tarjetas personalizadas. Rastrea tu progreso y domina las palabras que realmente necesitas.",
-    "keywords": "aprender vocabulario, app para aprender idiomas, aprender inglés, aprender francés, aprender español, tarjetas de vocabulario, app de vocabulario, aplicación de idiomas, vocabulario inglés, vocabulario francés, vocabulario español, aprender palabras, flashcards"
+    "title": "Lexykapp - Domina 7 Idiomas con IA | Aprende Inglés, Español, Francés, Alemán, Italiano, Portugués y Japonés",
+    "description": "Domina 7 idiomas con herramientas impulsadas por IA: Inglés, Español, Francés, Alemán, Italiano, Portugués, Japonés. Tarjetas inteligentes, traducción instantánea con cámara y chat de voz en tiempo real. Aprende donde sea, cuando sea.",
+    "keywords": "aprender vocabulario, aprender idiomas, aprender francés, aprender español, aprender inglés, aprender alemán, aprender italiano, aprender portugués, aprender japonés, app de tarjetas, traducción IA, traductor de cámara, traductor de voz, traducción en tiempo real, traducción de fotos, app multilingüe, app de vocabulario, app de idiomas, traductor de viaje, práctica de conversación, aprendizaje de idiomas con IA"
   },
   "nav": {
     "home": "Inicio",
@@ -12,35 +12,44 @@
     "support": "Soporte"
   },
   "hero": {
-    "welcome": "¡Mejora tu vocabulario!",
-    "subtitle": "Aprende palabras en inglés, francés y español que realmente necesitas. Comienza tu aventura de aprendizaje personalizado con tarjetas inteligentes.",
-    "cta": "Comenzar"
+    "welcomeLine1": "Domina 7 idiomas",
+    "welcomeLine2": "con aprendizaje impulsado por IA",
+    "subtitle": "Aprende Inglés, Español, Francés, Alemán, Italiano, Portugués y Japonés con tarjetas inteligentes, traducción instantánea con cámara y chat de voz en tiempo real. Tu viaje hacia la fluidez comienza aquí.",
+    "cta": "Comenzar Gratis"
   },
   "sections": {
     "howItWorks": {
-      "title": "Cómo funciona",
-      "description": "Domina nuevo vocabulario en inglés, francés y español. Aprende palabras en cualquier lugar, en cualquier momento y mejora tus habilidades lingüísticas deslizando tarjetas personalizadas."
+      "title": "Aprende naturalmente, domina sin esfuerzo",
+      "description": "Domina vocabulario en 7 idiomas con herramientas impulsadas por IA. Desliza tarjetas inteligentes, traduce texto desde fotos al instante y practica conversaciones con traducción de voz en tiempo real. Aprende donde sea, cuando sea: en casa, viajando o en movimiento."
     },
     "features": {
-      "title": "Todo lo que necesitas",
-      "description": "Disfruta de listas de vocabulario personalizables para inglés, francés y español, además de seguimiento inteligente del progreso, todo en un solo lugar. Establece objetivos de aprendizaje, recibe recordatorios y rastrea tu progreso lingüístico de manera simple y rápida.",
+      "title": "Todo lo que necesitas para dominar cualquier idioma",
+      "description": "Desde tarjetas inteligentes hasta traducción con cámara IA y chat de voz en tiempo real: todas las herramientas que necesitas para lograr fluidez en 7 idiomas. Establece objetivos, rastrea tu progreso y aprende a tu propio ritmo.",
       "item1": {
-        "title": "Listas de vocabulario curadas",
-        "description": "Accede a listas de palabras cuidadosamente seleccionadas para inglés, francés y español. Enfócate en vocabulario relevante para tus objetivos e intereses de aprendizaje."
+        "title": "Tarjetas de vocabulario inteligentes",
+        "description": "Domina 7 idiomas con listas de palabras expertamente seleccionadas. Personaliza tu aprendizaje creando listas personalizadas, saltando palabras que conoces y enfocándote en vocabulario que importa para tus objetivos, ya sea para viajar, trabajar o conversaciones diarias."
       },
       "item2": {
-        "title": "Establecimiento y seguimiento de objetivos",
-        "description": "Define y rastrea tus objetivos de aprendizaje de idiomas. Divide los objetivos de vocabulario en tareas diarias alcanzables y observa cómo crece tu progreso."
+        "title": "Traducción con cámara IA",
+        "description": "Traduce texto al instante desde cualquier foto. Perfecto para aeropuertos, museos, menús, señales de tráfico, libros y documentos. Apunta tu cámara, toma una foto y comprende cualquier idioma en segundos. Tu traductor personal en tu bolsillo."
       },
       "item3": {
-        "title": "Aprende palabras que importan",
-        "description": "Crea tus propias listas de vocabulario personalizadas para inglés, francés o español. Omite palabras que ya conoces y enfócate en lo que realmente te importa."
+        "title": "Chat de voz en tiempo real",
+        "description": "Practica conversaciones naturalmente en cualquiera de 7 idiomas. Habla por tu micrófono, obtén traducciones instantáneas y escucha respuestas con texto a voz. Construye confianza y fluidez a través de conversaciones reales, en cualquier momento, en cualquier lugar."
+      },
+      "item4": {
+        "title": "Seguimiento de objetivos e insights",
+        "description": "Observa tu fluidez crecer con seguimiento inteligente del progreso. Establece objetivos diarios alcanzables, rastrea tus rachas de aprendizaje y celebra hitos. Obtén insights personalizados que te mantienen motivado y en camino al dominio."
+      },
+      "item5": {
+        "title": "Aprende según tu horario",
+        "description": "Estudia cuando te funcione con modos de aprendizaje flexibles. Recibe recordatorios inteligentes, practica sin conexión y sincroniza tu progreso entre dispositivos. Ya sea que tengas 5 minutos o una hora, haz que cada momento cuente hacia la fluidez."
       }
     },
     "cta": {
-      "title": "¡Mejora tu vocabulario!",
-      "description": "Celebra la alegría del logro con una aplicación de aprendizaje de vocabulario diseñada para rastrear tu progreso en inglés, francés y español y motivar tus esfuerzos de aprendizaje de idiomas.",
-      "button": "Comenzar"
+      "title": "Comienza tu viaje hacia la fluidez hoy",
+      "description": "Únete a miles de estudiantes dominando 7 idiomas con herramientas impulsadas por IA. Desde tarjetas inteligentes hasta traducción instantánea con cámara y chat de voz en tiempo real: todo lo que necesitas para lograr fluidez está en una app.",
+      "button": "Comenzar Gratis"
     }
   },
   "footer": {

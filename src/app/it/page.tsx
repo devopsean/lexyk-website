@@ -1,14 +1,14 @@
-import Footer from "./components/footer";
-import Header from "./components/header";
-import About from "./sections/about";
-import Features from "./sections/features";
-import Getstarted from "./sections/getstarted";
-import How from "./sections/how";
+import Footer from "../components/footer";
+import Header from "../components/header";
+import About from "../sections/about";
+import Features from "../sections/features";
+import Getstarted from "../sections/getstarted";
+import How from "../sections/how";
 import { generateMetadataForLocale } from "@/lib/metadata";
 
-export const metadata = generateMetadataForLocale('en');
+export const metadata = generateMetadataForLocale('it');
 
-export default function Home() {
+export default function HomeIt() {
   return (
     <div
       id="page-wrapper"
@@ -25,3 +25,4 @@ export default function Home() {
     </div>
   );
 }
+

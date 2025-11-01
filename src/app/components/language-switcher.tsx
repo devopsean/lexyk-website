@@ -1,13 +1,24 @@
 "use client";
 
 import React, { useState, useRef, useEffect } from 'react';
-import { usePathname } from 'next/navigation';
-import { locales, localeNames, getLocaleFromPath, type Locale } from '@/lib/translations';
+import { usePathname, useRouter } from 'next/navigation';
+import { locales, localeNames, getLocaleFromPath, getLocalizedPath, defaultLocale, type Locale } from '@/lib/translations';
+
+const localeFlags: Record<Locale, string> = {
+  en: '🇬🇧',
+  es: '🇪🇸',
+  fr: '🇫🇷',
+  pt: '🇵🇹',
+  it: '🇮🇹',
+  de: '🇩🇪',
+  ja: '🇯🇵',
+};
 
 export default function LanguageSwitcher() {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
+  const router = useRouter();
   const currentLocale = getLocaleFromPath(pathname);
 
   useEffect(() => {
@@ -22,17 +33,31 @@ export default function LanguageSwitcher() {
   }, []);
 
   const handleLanguageChange = (newLocale: Locale) => {
-    // For now, just reload the page with a language parameter
-    // This is a simplified approach that will work with the current setup
-    const url = new URL(window.location.href);
-    url.searchParams.set('lang', newLocale);
-    
     setIsOpen(false);
-    window.location.href = url.toString();
+    
+    // Get the current path without locale
+    const pathSegments = pathname.split('/').filter(Boolean);
+    const firstSegment = pathSegments[0];
+    
+    // If first segment is a locale, remove it
+    let cleanPath: string;
+    if (locales.includes(firstSegment as Locale)) {
+      const remainingSegments = pathSegments.slice(1);
+      cleanPath = remainingSegments.length > 0 ? '/' + remainingSegments.join('/') : '/';
+    } else {
+      cleanPath = pathname || '/';
+    }
+    
+    // Build new path with locale
+    const newPath = newLocale === defaultLocale 
+      ? cleanPath 
+      : `/${newLocale}${cleanPath === '/' ? '' : cleanPath}`;
+    
+    router.push(newPath);
   };
 
-  // Only show active locales (en, es, fr)
-  const activeLocales = locales.filter(l => ['en', 'es', 'fr'].includes(l));
+  // Show all available locales
+  const activeLocales = locales;
 
   return (
     <div className="relative" ref={dropdownRef}>
@@ -43,21 +68,7 @@ export default function LanguageSwitcher() {
         aria-expanded={isOpen}
         aria-haspopup="true"
       >
-        <svg
-          className="w-5 h-5"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"
-          />
-        </svg>
-        <span className="uppercase text-xs font-bold">{currentLocale}</span>
+        <span className="text-lg">{localeFlags[currentLocale]}</span>
         <svg
           className={`w-4 h-4 transition-transform ${isOpen ? 'rotate-180' : ''}`}
           fill="none"
@@ -79,7 +90,10 @@ export default function LanguageSwitcher() {
               }`}
               role="menuitem"
             >
-              <span>{localeNames[locale]}</span>
+              <span className="flex items-center gap-2">
+                <span>{localeFlags[locale]}</span>
+                <span>{localeNames[locale]}</span>
+              </span>
               {currentLocale === locale && (
                 <svg className="w-4 h-4 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
                   <path

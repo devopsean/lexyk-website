@@ -74,6 +74,7 @@ export const metadata: Metadata = {
 import StructuredData from "./components/structured-data";
 import Analytics from "./components/analytics";
 import HrefLangTags from "./components/hreflang-tags";
+import HtmlLang from "./components/html-lang";
 
 export default function RootLayout({
   children,
@@ -90,6 +91,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <HtmlLang />
         <Analytics />
         {children}
       </body>

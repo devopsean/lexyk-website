@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "Lexykapp - Aprenda Vocabulário | Inglês, Francês e Espanhol",
-    "description": "Melhore seu vocabulário com Lexykapp! Aprenda palavras em inglês, francês e espanhol através de cartões personalizados. Acompanhe seu progresso e domine as palavras que importam para você.",
-    "keywords": "aprender vocabulário, aprendizado de idiomas, aprender inglês, aprender francês, aprender espanhol, aplicativo de cartões, app de vocabulário, aplicativo de idiomas, vocabulário inglês, vocabulário francês, vocabulário espanhol, aprender palavras"
+    "title": "Lexykapp - Domine 7 Idiomas com IA | Aprenda Inglês, Espanhol, Francês, Alemão, Italiano, Português e Japonês",
+    "description": "Domine 7 idiomas com ferramentas IA: Inglês, Espanhol, Francês, Alemão, Italiano, Português, Japonês. Flashcards inteligentes, tradução instantânea por câmera e chat de voz em tempo real. Aprenda em qualquer lugar, a qualquer momento.",
+    "keywords": "aprender vocabulário, aprendizagem de idiomas, aprender francês, aprender espanhol, aprender inglês, aprender alemão, aprender italiano, aprender português, aprender japonês, app de flashcards, tradução IA, tradutor de câmera, tradutor de voz, tradução em tempo real, tradução de fotos, app multilíngue, app de vocabulário, app de idiomas, tradutor de viagem, prática de conversação, aprendizagem de idiomas com IA"
   },
   "nav": {
     "home": "Início",
@@ -12,35 +12,44 @@
     "support": "Suporte"
   },
   "hero": {
-    "welcome": "Melhore seu vocabulário!",
-    "subtitle": "Aprenda palavras em inglês, francês e espanhol que importam para você. Comece sua aventura de aprendizado personalizado com cartões inteligentes.",
-    "cta": "Começar"
+    "welcomeLine1": "Domine 7 idiomas",
+    "welcomeLine2": "com aprendizagem IA",
+    "subtitle": "Aprenda Inglês, Espanhol, Francês, Alemão, Italiano, Português e Japonês com flashcards inteligentes, tradução instantânea por câmera e chat de voz em tempo real. Sua jornada rumo à fluência começa aqui.",
+    "cta": "Começar Gratuitamente"
   },
   "sections": {
     "howItWorks": {
-      "title": "Como funciona",
-      "description": "Domine novo vocabulário em inglês, francês e espanhol. Aprenda palavras em qualquer lugar, a qualquer momento e melhore suas habilidades linguísticas deslizando cartões personalizados."
+      "title": "Aprenda naturalmente, domine sem esforço",
+      "description": "Domine vocabulário em 7 idiomas com ferramentas IA. Deslize flashcards inteligentes, traduza texto de fotos instantaneamente e pratique conversas com tradução de voz em tempo real. Aprenda em qualquer lugar, a qualquer momento: em casa, viajando ou em movimento."
     },
     "features": {
-      "title": "Tudo que você precisa",
-      "description": "Desfrute de listas de vocabulário personalizáveis para inglês, francês e espanhol, além de acompanhamento inteligente de progresso, tudo em um só lugar. Defina objetivos de aprendizado, receba lembretes e acompanhe seu progresso linguístico de forma simples e rápida.",
+      "title": "Tudo que você precisa para dominar qualquer idioma",
+      "description": "De flashcards inteligentes à tradução por câmera IA e chat de voz em tempo real: todas as ferramentas necessárias para alcançar fluência em 7 idiomas. Defina objetivos, acompanhe seu progresso e aprenda no seu próprio ritmo.",
       "item1": {
-        "title": "Listas de vocabulário curadas",
-        "description": "Acesse listas de palavras especializadas para inglês, francês e espanhol. Concentre-se no vocabulário relevante para seus objetivos e interesses de aprendizado."
+        "title": "Flashcards de vocabulário inteligentes",
+        "description": "Domine 7 idiomas com listas de palavras selecionadas por especialistas. Personalize seu aprendizado criando listas personalizadas, pulando palavras que você conhece e focando no vocabulário importante para seus objetivos, seja para viajar, trabalhar ou conversas diárias."
       },
       "item2": {
-        "title": "Definição e acompanhamento de objetivos",
-        "description": "Defina e acompanhe seus objetivos de aprendizado de idiomas. Divida os objetivos de vocabulário em tarefas diárias alcançáveis e veja seu progresso crescer."
+        "title": "Tradução por câmera IA",
+        "description": "Traduza texto instantaneamente de qualquer foto. Perfeito para aeroportos, museus, cardápios, placas de rua, livros e documentos. Aponte sua câmera, tire uma foto e entenda qualquer idioma em segundos. Seu tradutor pessoal no bolso."
       },
       "item3": {
-        "title": "Aprenda palavras que importam",
-        "description": "Crie suas próprias listas de vocabulário personalizadas para inglês, francês ou espanhol. Pule palavras que você já conhece e concentre-se no que importa para você."
+        "title": "Chat de voz em tempo real",
+        "description": "Pratique conversas naturalmente em qualquer um dos 7 idiomas. Fale no microfone, obtenha traduções instantâneas e ouça respostas com texto para fala. Construa confiança e fluência através de conversas reais, a qualquer momento, em qualquer lugar."
+      },
+      "item4": {
+        "title": "Acompanhamento de objetivos e insights",
+        "description": "Veja sua fluência crescer com acompanhamento inteligente de progresso. Defina objetivos diários alcançáveis, acompanhe suas sequências de aprendizado e celebre marcos. Receba insights personalizados que mantêm você motivado e no caminho para o domínio."
+      },
+      "item5": {
+        "title": "Aprenda no seu horário",
+        "description": "Estude quando funcionar para você com modos de aprendizado flexíveis. Receba lembretes inteligentes, pratique offline e sincronize seu progresso entre dispositivos. Seja 5 minutos ou uma hora, faça cada momento contar rumo à fluência."
       }
     },
     "cta": {
-      "title": "Melhore seu vocabulário!",
-      "description": "Celebre a alegria da conquista com um aplicativo de aprendizado de vocabulário projetado para acompanhar seu progresso em inglês, francês e espanhol e motivar seus esforços de aprendizado de idiomas.",
-      "button": "Começar"
+      "title": "Comece sua jornada rumo à fluência hoje",
+      "description": "Junte-se a milhares de alunos dominando 7 idiomas com ferramentas IA. De flashcards inteligentes à tradução instantânea por câmera e chat de voz em tempo real: tudo que você precisa para alcançar fluência está em um app.",
+      "button": "Começar Gratuitamente"
     }
   },
   "footer": {
@@ -48,4 +57,3 @@
     "followUs": "Siga-nos"
   }
 }
-

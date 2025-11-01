@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "Lexykapp - Apprenez du Vocabulaire | Anglais, Français et Espagnol",
-    "description": "Améliorez votre vocabulaire avec Lexykapp ! Apprenez des mots en anglais, français et espagnol avec des cartes personnalisées. Suivez vos progrès et maîtrisez les mots qui vous importent vraiment.",
-    "keywords": "apprendre vocabulaire, app pour apprendre les langues, apprendre anglais, apprendre français, apprendre espagnol, cartes mémoire, app vocabulaire, application langues, vocabulaire anglais, vocabulaire français, vocabulaire espagnol, apprendre mots, flashcards"
+    "title": "Lexykapp - Maîtrisez 7 Langues avec l'IA | Apprenez l'Anglais, l'Espagnol, le Français, l'Allemand, l'Italien, le Portugais et le Japonais",
+    "description": "Maîtrisez 7 langues avec des outils IA : Anglais, Espagnol, Français, Allemand, Italien, Portugais, Japonais. Cartes intelligentes, traduction instantanée par caméra et chat vocal en temps réel. Apprenez partout, à tout moment.",
+    "keywords": "apprendre vocabulaire, apprentissage des langues, apprendre français, apprendre espagnol, apprendre anglais, apprendre allemand, apprendre italien, apprendre portugais, apprendre japonais, app de cartes, traduction IA, traducteur caméra, traducteur vocal, traduction en temps réel, traduction photo, app multilingue, app vocabulaire, app langues, traducteur voyage, pratique conversation, apprentissage langues IA"
   },
   "nav": {
     "home": "Accueil",
@@ -12,35 +12,44 @@
     "support": "Assistance"
   },
   "hero": {
-    "welcome": "Améliorez votre vocabulaire !",
-    "subtitle": "Apprenez des mots en anglais, français et espagnol qui vous importent vraiment. Commencez votre aventure d'apprentissage personnalisé avec des cartes intelligentes.",
-    "cta": "Commencer"
+    "welcomeLine1": "Maîtrisez 7 langues",
+    "welcomeLine2": "avec l'apprentissage IA",
+    "subtitle": "Apprenez l'Anglais, l'Espagnol, le Français, l'Allemand, l'Italien, le Portugais et le Japonais avec des cartes intelligentes, traduction instantanée par caméra et chat vocal en temps réel. Votre voyage vers la maîtrise commence ici.",
+    "cta": "Commencer Gratuitement"
   },
   "sections": {
     "howItWorks": {
-      "title": "Comment ça marche",
-      "description": "Maîtrisez un nouveau vocabulaire en anglais, français et espagnol. Apprenez des mots n'importe où, n'importe quand et améliorez vos compétences linguistiques en parcourant des cartes personnalisées."
+      "title": "Apprenez naturellement, maîtrisez sans effort",
+      "description": "Maîtrisez le vocabulaire dans 7 langues avec des outils IA. Parcourez des cartes intelligentes, traduisez du texte depuis des photos instantanément et pratiquez des conversations avec traduction vocale en temps réel. Apprenez partout, à tout moment : à la maison, en voyage ou en déplacement."
     },
     "features": {
-      "title": "Tout ce dont vous avez besoin",
-      "description": "Profitez de listes de vocabulaire personnalisables pour l'anglais, le français et l'espagnol, ainsi que d'un suivi intelligent des progrès, le tout en un seul endroit. Définissez des objectifs d'apprentissage, recevez des rappels et suivez vos progrès linguistiques simplement et rapidement.",
+      "title": "Tout ce qu'il faut pour maîtriser n'importe quelle langue",
+      "description": "Des cartes intelligentes à la traduction par caméra IA et au chat vocal en temps réel : tous les outils dont vous avez besoin pour atteindre la maîtrise dans 7 langues. Définissez des objectifs, suivez vos progrès et apprenez à votre rythme.",
       "item1": {
-        "title": "Listes de vocabulaire sélectionnées",
-        "description": "Accédez à des listes de mots soigneusement sélectionnées pour l'anglais, le français et l'espagnol. Concentrez-vous sur le vocabulaire pertinent pour vos objectifs et intérêts d'apprentissage."
+        "title": "Cartes de vocabulaire intelligentes",
+        "description": "Maîtrisez 7 langues avec des listes de mots sélectionnées par des experts. Personnalisez votre apprentissage en créant des listes personnalisées, en sautant les mots que vous connaissez et en vous concentrant sur le vocabulaire qui compte pour vos objectifs, que ce soit pour voyager, travailler ou les conversations quotidiennes."
       },
       "item2": {
-        "title": "Définition et suivi des objectifs",
-        "description": "Définissez et suivez vos objectifs d'apprentissage des langues. Divisez les objectifs de vocabulaire en tâches quotidiennes réalisables et regardez vos progrès grandir."
+        "title": "Traduction par caméra IA",
+        "description": "Traduisez du texte instantanément depuis n'importe quelle photo. Parfait pour les aéroports, musées, menus, panneaux de signalisation, livres et documents. Pointez votre caméra, prenez une photo et comprenez n'importe quelle langue en quelques secondes. Votre traducteur personnel dans votre poche."
       },
       "item3": {
-        "title": "Apprenez les mots qui comptent",
-        "description": "Créez vos propres listes de vocabulaire personnalisées pour l'anglais, le français ou l'espagnol. Passez les mots que vous connaissez déjà et concentrez-vous sur ce qui compte vraiment pour vous."
+        "title": "Chat vocal en temps réel",
+        "description": "Pratiquez des conversations naturellement dans l'une des 7 langues. Parlez dans votre micro, obtenez des traductions instantanées et écoutez les réponses avec synthèse vocale. Renforcez votre confiance et votre maîtrise grâce à de vraies conversations, à tout moment, n'importe où."
+      },
+      "item4": {
+        "title": "Suivi des objectifs et insights",
+        "description": "Regardez votre maîtrise progresser avec un suivi intelligent. Fixez des objectifs quotidiens réalisables, suivez vos séries d'apprentissage et célébrez les étapes importantes. Obtenez des insights personnalisés qui vous maintiennent motivé et sur la voie de la maîtrise."
+      },
+      "item5": {
+        "title": "Apprenez selon votre emploi du temps",
+        "description": "Étudiez quand cela vous convient avec des modes d'apprentissage flexibles. Recevez des rappels intelligents, pratiquez hors ligne et synchronisez vos progrès sur tous vos appareils. Que vous ayez 5 minutes ou une heure, faites de chaque moment un pas vers la maîtrise."
       }
     },
     "cta": {
-      "title": "Améliorez votre vocabulaire !",
-      "description": "Célébrez la joie de l'accomplissement avec une application d'apprentissage du vocabulaire conçue pour suivre vos progrès en anglais, français et espagnol et motiver vos efforts d'apprentissage des langues.",
-      "button": "Commencer"
+      "title": "Commencez votre voyage vers la maîtrise aujourd'hui",
+      "description": "Rejoignez des milliers d'apprenants maîtrisant 7 langues avec des outils IA. Des cartes intelligentes à la traduction instantanée par caméra et au chat vocal en temps réel : tout ce dont vous avez besoin pour atteindre la maîtrise est dans une seule app.",
+      "button": "Commencer Gratuitement"
     }
   },
   "footer": {

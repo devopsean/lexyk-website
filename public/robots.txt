@@ -9,4 +9,8 @@ Sitemap: https://www.lexykapp.com/sitemap.xml
 Allow: /en/
 Allow: /es/
 Allow: /fr/
+Allow: /pt/
+Allow: /it/
+Allow: /de/
+Allow: /ja/
 

@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { usePathname } from 'next/navigation';
-import { getLocaleFromPath, getTranslations, type Locale } from '@/lib/translations';
+import { getLocaleFromPath, getTranslations, locales, type Locale } from '@/lib/translations';
 
 export default function StructuredData() {
   const pathname = usePathname();
@@ -35,7 +35,7 @@ export default function StructuredData() {
     "applicationCategory": "EducationalApplication",
     "description": translations.metadata.description,
     "operatingSystem": "iOS, Android",
-    "inLanguage": [locale, "en", "es", "fr"],
+    "inLanguage": locales,
     "offers": {
       "@type": "Offer",
       "price": "0",
@@ -59,7 +59,7 @@ export default function StructuredData() {
     "applicationCategory": "EducationalApplication",
     "operatingSystem": "iOS, Android",
     "description": translations.metadata.description,
-    "inLanguage": [locale, "en", "es", "fr"],
+    "inLanguage": locales,
     "offers": {
       "@type": "Offer",
       "price": "0",

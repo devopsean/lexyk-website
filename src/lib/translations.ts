@@ -3,10 +3,12 @@ import es from '../locales/es.json';
 import fr from '../locales/fr.json';
 import pt from '../locales/pt.json';
 import it from '../locales/it.json';
+import de from '../locales/de.json';
+import ja from '../locales/ja.json';
 
-export type Locale = 'en' | 'es' | 'fr' | 'pt' | 'it';
+export type Locale = 'en' | 'es' | 'fr' | 'pt' | 'it' | 'de' | 'ja';
 
-export const locales: Locale[] = ['en', 'es', 'fr', 'pt', 'it'];
+export const locales: Locale[] = ['en', 'es', 'fr', 'pt', 'it', 'de', 'ja'];
 
 export const defaultLocale: Locale = 'en';
 
@@ -16,6 +18,8 @@ export const localeNames: Record<Locale, string> = {
   fr: 'Français',
   pt: 'Português',
   it: 'Italiano',
+  de: 'Deutsch',
+  ja: '日本語',
 };
 
 const translations = {
@@ -24,6 +28,8 @@ const translations = {
   fr,
   pt,
   it,
+  de,
+  ja,
 };
 
 export function getTranslations(locale: Locale) {

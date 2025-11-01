@@ -1,34 +1,40 @@
 "use client";
 
 import { usePathname } from 'next/navigation';
+import { locales as allLocales, defaultLocale, type Locale } from '@/lib/translations';
 
 export default function HrefLangTags() {
   const pathname = usePathname();
   const baseUrl = 'https://www.lexykapp.com';
   
   // Remove locale prefix if exists
-  const pathWithoutLocale = pathname.replace(/^\/(en|es|fr|pt|it)(\/|$)/, '/');
+  const pathSegments = pathname.split('/').filter(Boolean);
+  const firstSegment = pathSegments[0] as Locale;
+  const pathWithoutLocale = allLocales.includes(firstSegment)
+    ? '/' + pathSegments.slice(1).join('/')
+    : pathname;
   
-  const locales = [
-    { code: 'en', path: pathWithoutLocale },
-    { code: 'es', path: `/es${pathWithoutLocale}` },
-    { code: 'fr', path: `/fr${pathWithoutLocale}` },
-  ];
+  const cleanPath = pathWithoutLocale === '/' ? '/' : pathWithoutLocale;
 
   return (
     <>
-      {locales.map(({ code, path }) => (
-        <link
-          key={code}
-          rel="alternate"
-          hrefLang={code}
-          href={`${baseUrl}${path === '//' ? '/' : path}`}
-        />
-      ))}
+      {allLocales.map((locale) => {
+        const path = locale === defaultLocale 
+          ? cleanPath 
+          : `/${locale}${cleanPath}`;
+        return (
+          <link
+            key={locale}
+            rel="alternate"
+            hrefLang={locale}
+            href={`${baseUrl}${path === '//' ? '/' : path}`}
+          />
+        );
+      })}
       <link
         rel="alternate"
         hrefLang="x-default"
-        href={`${baseUrl}${pathWithoutLocale === '//' ? '/' : pathWithoutLocale}`}
+        href={`${baseUrl}${cleanPath === '//' ? '/' : cleanPath}`}
       />
     </>
   );

@@ -1,11 +1,20 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { getTranslations } from "@/lib/translations";
+import { getLocaleFromPath, getLocalizedPath } from "@/lib/translations";
 
 function Footer() {
+  const pathname = usePathname();
+  const locale = getLocaleFromPath(pathname);
+  const t = getTranslations(locale);
+  
   return (
     <footer className="bg-black flex flex-col md:flex-row justify-between items-center text-xs sm:text-sm text-white max-w-screen-2xl over-2000:max-w-[80vw] mx-auto px-4 sm:px-6 py-6 md:py-4">
       <div className="flex flex-col mb-4 md:mb-0 over-2000:my-[0.5vw] items-center md:items-start">
-        <p className="mb-3 sm:mb-4 md:m-5 over-1300:text-[0.85vw]/[2vw] text-center md:text-left">© 2025 Lexyk by AlgoPort Inc. All rights reserved.</p>
+        <p className="mb-3 sm:mb-4 md:m-5 over-1300:text-[0.85vw]/[2vw] text-center md:text-left">{t.footer.copyright}</p>
         <div className="flex gap-4 sm:gap-6 md:mx-5 mb-3 sm:mb-4 md:mb-5">
           {/* <Link href="#" className="hover:text-white">
             <span className="sr-only">Twitter</span>
@@ -64,17 +73,17 @@ function Footer() {
       </div>
 
       <div className="flex flex-wrap justify-center md:justify-end gap-3 sm:gap-4 md:gap-6 mt-2 md:mt-0 md:mx-5 over-2000:mt-[1vw] over-1300:text-[0.85vw]">
-        <Link href="/privacy" className="hover:text-gray-300 transition-colors">
-          Privacy Policy
+        <Link href={getLocalizedPath('/privacy', locale)} className="hover:text-gray-300 transition-colors">
+          {t.nav.privacy}
         </Link>
-        <Link href="/terms" className="hover:text-gray-300 transition-colors">
-          Terms of Service
+        <Link href={getLocalizedPath('/terms', locale)} className="hover:text-gray-300 transition-colors">
+          {t.nav.terms}
         </Link>
-        <Link href="/data-deletion" className="hover:text-gray-300 transition-colors">
-          Data Deletion
+        <Link href={getLocalizedPath('/data-deletion', locale)} className="hover:text-gray-300 transition-colors">
+          {t.nav.dataDelection}
         </Link>
         <a href="mailto:support@lexykapp.com" className="hover:text-gray-300 transition-colors">
-          Support
+          {t.nav.support}
         </a>
       </div>
     </footer>

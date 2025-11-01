@@ -1,7 +1,17 @@
 import { Metadata } from 'next';
-import { getTranslations, type Locale } from './translations';
+import { getTranslations, locales, type Locale } from './translations';
 
 const baseUrl = 'https://www.lexykapp.com';
+
+function generateLanguageAlternates(): Record<string, string> {
+  const alternates: Record<string, string> = {};
+  locales.forEach(locale => {
+    const localePrefix = locale === 'en' ? '' : `/${locale}`;
+    alternates[locale] = `${baseUrl}${localePrefix}/`;
+  });
+  alternates['x-default'] = `${baseUrl}/`;
+  return alternates;
+}
 
 export function generateMetadataForLocale(locale: Locale): Metadata {
   const translations = getTranslations(locale);
@@ -17,12 +27,7 @@ export function generateMetadataForLocale(locale: Locale): Metadata {
     keywords: metadata.keywords.split(', '),
     alternates: {
       canonical: url,
-      languages: {
-        'en': `${baseUrl}/`,
-        'es': `${baseUrl}/es/`,
-        'fr': `${baseUrl}/fr/`,
-        'x-default': `${baseUrl}/`,
-      },
+      languages: generateLanguageAlternates(),
     },
     openGraph: {
       type: 'website',
@@ -68,13 +73,13 @@ function getOpenGraphLocale(locale: Locale): string {
     'fr': 'fr_FR',
     'pt': 'pt_PT',
     'it': 'it_IT',
+    'de': 'de_DE',
+    'ja': 'ja_JP',
   };
   return localeMap[locale] || 'en_US';
 }
 
 export function generateHrefLangTags(currentPath: string) {
-  const locales: Locale[] = ['en', 'es', 'fr'];
-  
   const tags: Array<{ rel: 'alternate'; hreflang: Locale | 'x-default'; href: string }> = locales.map(locale => {
     const path = locale === 'en' ? currentPath : `/${locale}${currentPath}`;
     return {

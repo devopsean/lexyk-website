@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "title": "Lexykapp - Meistere 7 Sprachen mit KI | Lerne Englisch, Spanisch, Französisch, Deutsch, Italienisch, Portugiesisch und Japanisch",
+    "description": "Meistere 7 Sprachen mit KI-Tools: Englisch, Spanisch, Französisch, Deutsch, Italienisch, Portugiesisch, Japanisch. Intelligente Karteikarten, sofortige Kamera-Übersetzung und Echtzeit-Voice-Chat. Lerne überall, jederzeit.",
+    "keywords": "Vokabeltrainer, Sprachenlernen, Französisch lernen, Spanisch lernen, Englisch lernen, Deutsch lernen, Italienisch lernen, Portugiesisch lernen, Japanisch lernen, Karteikarten-App, KI-Übersetzung, Kamera-Übersetzer, Sprach-Übersetzer, Echtzeit-Übersetzung, Foto-Übersetzung, mehrsprachige App, Vokabel-App, Sprach-App, Reise-Übersetzer, Konversationspraxis, KI-Sprachenlernen"
+  },
+  "nav": {
+    "home": "Startseite",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "dataDelection": "Datenlöschung",
+    "support": "Support"
+  },
+  "hero": {
+    "welcomeLine1": "Meistere 7 Sprachen",
+    "welcomeLine2": "mit KI-gesteuertem Lernen",
+    "subtitle": "Lerne Englisch, Spanisch, Französisch, Deutsch, Italienisch, Portugiesisch und Japanisch mit intelligenten Karteikarten, sofortiger Kamera-Übersetzung und Echtzeit-Voice-Chat. Deine Reise zur Sprachbeherrschung beginnt hier.",
+    "cta": "Kostenlos Starten"
+  },
+  "sections": {
+    "howItWorks": {
+      "title": "Lerne natürlich, meistere mühelos",
+      "description": "Meistere Vokabeln in 7 Sprachen mit KI-Tools. Wische durch intelligente Karteikarten, übersetze Text aus Fotos sofort und übe Gespräche mit Echtzeit-Sprachübersetzung. Lerne überall, jederzeit: zu Hause, auf Reisen oder unterwegs."
+    },
+    "features": {
+      "title": "Alles, was du brauchst, um jede Sprache zu meistern",
+      "description": "Von intelligenten Karteikarten über KI-Kamera-Übersetzung bis hin zu Echtzeit-Voice-Chat: alle Tools, die du brauchst, um in 7 Sprachen fließend zu werden. Setze Ziele, verfolge deinen Fortschritt und lerne in deinem eigenen Tempo.",
+      "item1": {
+        "title": "Intelligente Vokabel-Karteikarten",
+        "description": "Meistere 7 Sprachen mit von Experten kuratierten Wortlisten. Personalisiere dein Lernen durch Erstellen eigener Listen, Überspringen bekannter Wörter und Fokussierung auf Vokabeln, die für deine Ziele wichtig sind, ob für Reisen, Arbeit oder alltägliche Gespräche."
+      },
+      "item2": {
+        "title": "KI-Kamera-Übersetzung",
+        "description": "Übersetze Text sofort von jedem Foto. Perfekt für Flughäfen, Museen, Speisekarten, Straßenschilder, Bücher und Dokumente. Richte deine Kamera aus, mache ein Foto und verstehe jede Sprache in Sekunden. Dein persönlicher Übersetzer in der Tasche."
+      },
+      "item3": {
+        "title": "Echtzeit-Voice-Chat",
+        "description": "Übe Gespräche natürlich in einer der 7 Sprachen. Sprich ins Mikrofon, erhalte sofortige Übersetzungen und höre Antworten mit Text-zu-Sprache. Baue Selbstvertrauen und Sprachbeherrschung durch echte Gespräche auf, jederzeit, überall."
+      },
+      "item4": {
+        "title": "Ziel-Tracking & Insights",
+        "description": "Beobachte, wie deine Sprachbeherrschung mit intelligentem Fortschritts-Tracking wächst. Setze erreichbare tägliche Ziele, verfolge deine Lernstreaks und feiere Meilensteine. Erhalte personalisierte Insights, die dich motiviert halten und auf Kurs zur Meisterschaft."
+      },
+      "item5": {
+        "title": "Lerne nach deinem Zeitplan",
+        "description": "Studiere, wann es für dich passt, mit flexiblen Lernmodi. Erhalte intelligente Erinnerungen, übe offline und synchronisiere deinen Fortschritt über Geräte hinweg. Ob 5 Minuten oder eine Stunde: mache jeden Moment auf dem Weg zur Sprachbeherrschung wertvoll."
+      }
+    },
+    "cta": {
+      "title": "Starte heute deine Reise zur Sprachbeherrschung",
+      "description": "Schließe dich Tausenden von Lernenden an, die 7 Sprachen mit KI-Tools meistern. Von intelligenten Karteikarten über sofortige Kamera-Übersetzung bis hin zu Echtzeit-Voice-Chat: alles, was du brauchst, um fließend zu werden, ist in einer App.",
+      "button": "Kostenlos Starten"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Lexyk von AlgoPort Inc. Alle Rechte vorbehalten.",
+    "followUs": "Folge uns"
+  }
+}

@@ -1,46 +1,55 @@
 {
   "metadata": {
-    "title": "Lexykapp - Impara Vocabolario | Inglese, Francese e Spagnolo",
-    "description": "Migliora il tuo vocabolario con Lexykapp! Impara parole in inglese, francese e spagnolo attraverso schede personalizzate. Monitora i tuoi progressi e padroneggia le parole che contano per te.",
-    "keywords": "imparare vocabolario, apprendimento lingue, imparare inglese, imparare francese, imparare spagnolo, app di schede, app vocabolario, applicazione lingue, vocabolario inglese, vocabolario francese, vocabolario spagnolo, imparare parole"
+    "title": "Lexykapp - Padroneggia 7 Lingue con l'IA | Impara l'Inglese, lo Spagnolo, il Francese, il Tedesco, l'Italiano, il Portoghese e il Giapponese",
+    "description": "Padroneggia 7 lingue con strumenti IA: Inglese, Spagnolo, Francese, Tedesco, Italiano, Portoghese, Giapponese. Flashcard intelligenti, traduzione istantanea con fotocamera e chat vocale in tempo reale. Impara ovunque, in qualsiasi momento.",
+    "keywords": "imparare vocabolario, apprendimento lingue, imparare francese, imparare spagnolo, imparare inglese, imparare tedesco, imparare italiano, imparare portoghese, imparare giapponese, app flashcard, traduzione IA, traduttore fotocamera, traduttore vocale, traduzione in tempo reale, traduzione foto, app multilingue, app vocabolario, app lingue, traduttore viaggio, pratica conversazione, apprendimento lingue IA"
   },
   "nav": {
     "home": "Home",
-    "privacy": "Privacy Policy",
+    "privacy": "Informativa sulla Privacy",
     "terms": "Termini di Servizio",
     "dataDelection": "Cancellazione Dati",
     "support": "Supporto"
   },
   "hero": {
-    "welcome": "Migliora il tuo vocabolario!",
-    "subtitle": "Impara parole in inglese, francese e spagnolo che contano per te. Inizia la tua avventura di apprendimento personalizzato con schede intelligenti.",
-    "cta": "Inizia"
+    "welcomeLine1": "Padroneggia 7 lingue",
+    "welcomeLine2": "con l'apprendimento IA",
+    "subtitle": "Impara l'Inglese, lo Spagnolo, il Francese, il Tedesco, l'Italiano, il Portoghese e il Giapponese con flashcard intelligenti, traduzione istantanea con fotocamera e chat vocale in tempo reale. Il tuo viaggio verso la padronanza inizia qui.",
+    "cta": "Inizia Gratuitamente"
   },
   "sections": {
     "howItWorks": {
-      "title": "Come funziona",
-      "description": "Padroneggia nuovo vocabolario in inglese, francese e spagnolo. Impara parole ovunque, in qualsiasi momento e migliora le tue competenze linguistiche scorrendo schede personalizzate."
+      "title": "Impara naturalmente, padroneggia senza sforzo",
+      "description": "Padroneggia il vocabolario in 7 lingue con strumenti IA. Scorri flashcard intelligenti, traduci testo da foto istantaneamente e pratica conversazioni con traduzione vocale in tempo reale. Impara ovunque, in qualsiasi momento: a casa, in viaggio o in movimento."
     },
     "features": {
-      "title": "Tutto ciò di cui hai bisogno",
-      "description": "Goditi elenchi di vocabolario personalizzabili per inglese, francese e spagnolo, oltre al monitoraggio intelligente dei progressi, tutto in un unico posto. Definisci obiettivi di apprendimento, ricevi promemoria e monitora i tuoi progressi linguistici in modo semplice e veloce.",
+      "title": "Tutto ciò di cui hai bisogno per padroneggiare qualsiasi lingua",
+      "description": "Dalle flashcard intelligenti alla traduzione con fotocamera IA e chat vocale in tempo reale: tutti gli strumenti necessari per raggiungere la padronanza in 7 lingue. Stabilisci obiettivi, monitora i progressi e impara al tuo ritmo.",
       "item1": {
-        "title": "Elenchi di vocabolario curati",
-        "description": "Accedi a elenchi di parole curati da esperti per inglese, francese e spagnolo. Concentrati sul vocabolario rilevante per i tuoi obiettivi e interessi di apprendimento."
+        "title": "Flashcard di vocabolario intelligenti",
+        "description": "Padroneggia 7 lingue con liste di parole selezionate da esperti. Personalizza il tuo apprendimento creando liste personalizzate, saltando parole che conosci e concentrandoti sul vocabolario importante per i tuoi obiettivi, che sia per viaggiare, lavorare o conversazioni quotidiane."
       },
       "item2": {
-        "title": "Definizione e monitoraggio obiettivi",
-        "description": "Definisci e monitora i tuoi obiettivi di apprendimento delle lingue. Suddividi gli obiettivi di vocabolario in compiti quotidiani raggiungibili e guarda i tuoi progressi crescere."
+        "title": "Traduzione con fotocamera IA",
+        "description": "Traduci testo istantaneamente da qualsiasi foto. Perfetto per aeroporti, musei, menu, cartelli stradali, libri e documenti. Punta la fotocamera, scatta una foto e comprendi qualsiasi lingua in secondi. Il tuo traduttore personale in tasca."
       },
       "item3": {
-        "title": "Impara parole che contano",
-        "description": "Crea i tuoi elenchi di vocabolario personalizzati per inglese, francese o spagnolo. Salta le parole che già conosci e concentrati su ciò che conta per te."
+        "title": "Chat vocale in tempo reale",
+        "description": "Pratica conversazioni naturalmente in una qualsiasi delle 7 lingue. Parla nel microfono, ottieni traduzioni istantanee e ascolta risposte con sintesi vocale. Costruisci fiducia e padronanza attraverso conversazioni reali, in qualsiasi momento, ovunque."
+      },
+      "item4": {
+        "title": "Monitoraggio obiettivi e insights",
+        "description": "Guarda la tua padronanza crescere con monitoraggio intelligente dei progressi. Stabilisci obiettivi quotidiani raggiungibili, monitora le tue serie di apprendimento e celebra i traguardi. Ricevi insights personalizzati che ti mantengono motivato e sulla strada verso la padronanza."
+      },
+      "item5": {
+        "title": "Impara secondo il tuo programma",
+        "description": "Studia quando funziona per te con modalità di apprendimento flessibili. Ricevi promemoria intelligenti, pratica offline e sincronizza i progressi tra dispositivi. Che siano 5 minuti o un'ora, fai contare ogni momento verso la padronanza."
       }
     },
     "cta": {
-      "title": "Migliora il tuo vocabolario!",
-      "description": "Celebra la gioia del successo con un'app di apprendimento del vocabolario progettata per monitorare i tuoi progressi in inglese, francese e spagnolo e motivare i tuoi sforzi di apprendimento delle lingue.",
-      "button": "Inizia"
+      "title": "Inizia il tuo viaggio verso la padronanza oggi",
+      "description": "Unisciti a migliaia di studenti che padroneggiano 7 lingue con strumenti IA. Dalle flashcard intelligenti alla traduzione istantanea con fotocamera e chat vocale in tempo reale: tutto ciò di cui hai bisogno per raggiungere la padronanza è in un'app.",
+      "button": "Inizia Gratuitamente"
     }
   },
   "footer": {
@@ -48,4 +57,3 @@
     "followUs": "Seguici"
   }
 }
-

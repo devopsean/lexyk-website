@@ -1,7 +1,8 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
-const locales = ['en', 'es', 'fr'];
+const locales = ['en', 'es', 'fr', 'pt', 'it', 'de', 'ja'];
+const defaultLocale = 'en';
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
@@ -25,11 +26,12 @@ export function middleware(request: NextRequest) {
   );
 
   if (pathnameHasLocale) {
+    // Locale routes are handled by Next.js file-based routing
+    // Just let them through
     return NextResponse.next();
   }
 
-  // For now, just let the default routing handle everything
-  // We'll implement proper i18n routing later if needed
+  // For default locale (en), serve normally
   return NextResponse.next();
 }
 

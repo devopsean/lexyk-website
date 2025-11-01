@@ -1,9 +1,9 @@
 import { MetadataRoute } from 'next'
+import { locales } from '@/lib/translations'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.lexykapp.com'
   const currentDate = new Date()
-  const locales = ['en', 'es', 'fr']
 
   const routes = [
     { path: '', priority: 1, changeFrequency: 'weekly' as const },
@@ -21,17 +21,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       const localePath = locale === 'en' ? route.path : `/${locale}${route.path}`
       const url = `${baseUrl}${localePath || '/'}`
       
+      // Generate language alternates for all locales
+      const languageAlternates: Record<string, string> = {}
+      locales.forEach(loc => {
+        const locPath = loc === 'en' ? route.path : `/${loc}${route.path}`
+        languageAlternates[loc] = `${baseUrl}${locPath || '/'}`
+      })
+      
       sitemap.push({
         url,
         lastModified: currentDate,
         changeFrequency: route.changeFrequency,
         priority: route.priority,
         alternates: {
-          languages: {
-            en: `${baseUrl}${route.path || '/'}`,
-            es: `${baseUrl}/es${route.path || '/'}`,
-            fr: `${baseUrl}/fr${route.path || '/'}`,
-          },
+          languages: languageAlternates,
         },
       })
     })
