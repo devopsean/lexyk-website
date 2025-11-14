@@ -55,6 +55,77 @@
   "footer": {
     "copyright": "© 2025 Lexyk par AlgoPort Inc. Tous droits réservés.",
     "followUs": "Suivez-nous"
+  },
+  "pages": {
+    "privacy": {
+      "title": "Politique de Confidentialité",
+      "description": "Découvrez la politique de confidentialité de Lexykapp et comment nous protégeons vos données pendant que vous apprenez le vocabulaire et améliorez vos compétences linguistiques."
+    },
+    "terms": {
+      "title": "Conditions d'Utilisation",
+      "description": "Lisez les conditions d'utilisation de Lexykapp pour utiliser notre application d'apprentissage de vocabulaire et plateforme d'apprentissage des langues."
+    },
+    "dataDeletion": {
+      "title": "Instructions de Suppression des Données",
+      "subtitle": "Guide rapide pour supprimer votre compte Lexyk et vos données personnelles",
+      "intro": "Si vous souhaitez supprimer votre compte Lexyk et les données personnelles associées, vous pouvez le faire directement depuis l'application :",
+      "step1": "Ouvrez l'application Lexyk sur votre appareil",
+      "step2": "Allez dans Paramètres",
+      "step3": "Faites défiler jusqu'en bas et appuyez sur Supprimer le Compte",
+      "step4": "Confirmez la suppression lorsque vous y êtes invité",
+      "warning": "Important : Une fois confirmé, votre compte et vos données personnelles seront supprimés définitivement de nos systèmes. Ce processus ne peut pas être annulé.",
+      "needHelp": "Besoin d'Aide ?",
+      "needHelpText": "Si vous rencontrez des problèmes pour supprimer votre compte ou si vous avez déjà désinstallé l'application, veuillez contacter notre équipe de support :",
+      "contactSupport": "Contacter le Support",
+      "moreDetails": "Vous Voulez Plus de Détails ?",
+      "moreDetailsText": "Pour des informations complètes sur les données supprimées, les délais de traitement et la conformité légale, visitez notre page détaillée de suppression de compte.",
+      "viewCompleteGuide": "Voir le Guide Complet de Suppression",
+      "privacyPolicy": "Politique de Confidentialité",
+      "termsOfService": "Conditions d'Utilisation",
+      "backToHome": "Retour à l'Accueil"
+    },
+    "deleteAccount": {
+      "title": "Supprimer Votre Compte",
+      "subtitle": "Nous sommes désolés de vous voir partir. Cette page vous guidera à travers le processus de suppression de compte.",
+      "warningTitle": "⚠️ Avertissement : Cette Action est Définitive",
+      "warningText": "Une fois votre compte supprimé, toutes vos données seront définitivement supprimées de nos serveurs. Cette action ne peut pas être annulée et vous ne pourrez pas récupérer votre progression d'apprentissage, votre vocabulaire enregistré ou toute autre information de compte.",
+      "howToDelete": "Comment Supprimer Votre Compte",
+      "method1Title": "Supprimer dans l'Application",
+      "method1Text": "Si vous avez toujours l'application Lexyk installée, vous pouvez supprimer votre compte directement :",
+      "method1Step1": "Ouvrez l'application Lexyk",
+      "method1Step2": "Allez dans Paramètres",
+      "method1Step3": "Accédez au Profil",
+      "method1Step4": "Faites défiler vers le bas et appuyez sur Supprimer le Compte",
+      "method1Step5": "Confirmez votre décision",
+      "processingTimeImmediate": "Délai de Traitement : Immédiat",
+      "method2Title": "Demande par Email",
+      "method2Text": "Si vous avez désinstallé l'application ou ne pouvez pas y accéder, envoyez-nous un email :",
+      "method2Subject": "Objet : Demande de Suppression de Compte",
+      "method2Include": "Incluez :",
+      "method2Item1": "Votre adresse email enregistrée",
+      "method2Item2": "Votre nom d'utilisateur (le cas échéant)",
+      "method2Item3": "Confirmation que vous souhaitez supprimer toutes les données",
+      "emailUsForDeletion": "📧 Envoyez-nous un Email pour Suppression",
+      "processingTime30Days": "Délai de Traitement : Sous 30 jours",
+      "whatDataGetsDeleted": "Quelles Données sont Supprimées",
+      "whatDataGetsDeletedText": "Lorsque vous supprimez votre compte, les données suivantes seront définitivement supprimées :",
+      "dataItem1": "Informations du profil (nom, email, photo de profil)",
+      "dataItem2": "Progression d'apprentissage et statistiques",
+      "dataItem3": "Vocabulaire enregistré et cartes",
+      "dataItem4": "Préférences et paramètres de l'application",
+      "dataItem5": "Statut et historique d'abonnement",
+      "dataItem6": "Données locales de l'appareil et cache",
+      "yourDataRights": "Vos Droits sur les Données",
+      "yourDataRightsText": "Nous respectons votre droit à la confidentialité des données. Ce processus de suppression de compte est conforme à :",
+      "gdpr": "RGPD - Droit à l'effacement (\"droit à l'oubli\")",
+      "googlePlay": "Google Play - Exigences de suppression des données",
+      "appStore": "App Store - Normes de confidentialité et de protection des données",
+      "quickInstructions": "Besoin d'Instructions Rapides ?",
+      "quickInstructionsText": "Pour un guide simplifié étape par étape sans les détails supplémentaires, consultez nos instructions rapides de suppression de données.",
+      "viewQuickGuide": "Voir le Guide Rapide",
+      "needHelpTitle": "Besoin d'Aide ?",
+      "needHelpText": "Si vous avez des questions ou des préoccupations concernant la suppression de votre compte, notre équipe de support est là pour vous aider."
+    }
   }
 }
 

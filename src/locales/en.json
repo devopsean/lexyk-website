@@ -55,6 +55,77 @@
   "footer": {
     "copyright": "© 2025 Lexyk by AlgoPort Inc. All rights reserved.",
     "followUs": "Follow us"
+  },
+  "pages": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "Learn about Lexykapp's privacy policy and how we protect your data while you learn vocabulary and improve your language skills."
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "description": "Read Lexykapp's terms of service for using our vocabulary learning app and language learning platform."
+    },
+    "dataDeletion": {
+      "title": "Data Deletion Instructions",
+      "subtitle": "Quick guide to removing your Lexyk account and personal data",
+      "intro": "If you would like to delete your Lexyk account and associated personal data, you can do so directly from within the app:",
+      "step1": "Open the Lexyk app on your device",
+      "step2": "Go to Settings",
+      "step3": "Scroll to the bottom and tap Delete Account",
+      "step4": "Confirm the deletion when prompted",
+      "warning": "Important: Once confirmed, your account and personal data will be permanently deleted from our systems. This process cannot be undone.",
+      "needHelp": "Need Assistance?",
+      "needHelpText": "If you experience any issues deleting your account or have already uninstalled the app, please contact our support team:",
+      "contactSupport": "Contact Support",
+      "moreDetails": "Want More Details?",
+      "moreDetailsText": "For comprehensive information about what data gets deleted, processing times, and legal compliance, visit our detailed account deletion page.",
+      "viewCompleteGuide": "View Complete Deletion Guide",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service",
+      "backToHome": "Back to Home"
+    },
+    "deleteAccount": {
+      "title": "Delete Your Account",
+      "subtitle": "We're sorry to see you go. This page will guide you through the account deletion process.",
+      "warningTitle": "⚠️ Warning: This Action is Permanent",
+      "warningText": "Once your account is deleted, all your data will be permanently removed from our servers. This action cannot be undone, and you will not be able to recover your learning progress, saved vocabulary, or any other account information.",
+      "howToDelete": "How to Delete Your Account",
+      "method1Title": "Delete In-App",
+      "method1Text": "If you still have the Lexyk app installed, you can delete your account directly:",
+      "method1Step1": "Open the Lexyk app",
+      "method1Step2": "Go to Settings",
+      "method1Step3": "Navigate to Profile",
+      "method1Step4": "Scroll down and tap Delete Account",
+      "method1Step5": "Confirm your decision",
+      "processingTimeImmediate": "Processing Time: Immediate",
+      "method2Title": "Email Request",
+      "method2Text": "If you've uninstalled the app or can't access it, send us an email:",
+      "method2Subject": "Subject: Account Deletion Request",
+      "method2Include": "Include:",
+      "method2Item1": "Your registered email address",
+      "method2Item2": "Your account username (if applicable)",
+      "method2Item3": "Confirmation that you want to delete all data",
+      "emailUsForDeletion": "📧 Email Us for Deletion",
+      "processingTime30Days": "Processing Time: Within 30 days",
+      "whatDataGetsDeleted": "What Data Gets Deleted",
+      "whatDataGetsDeletedText": "When you delete your account, the following data will be permanently removed:",
+      "dataItem1": "Profile information (name, email, profile photo)",
+      "dataItem2": "Learning progress and statistics",
+      "dataItem3": "Saved vocabulary and flashcards",
+      "dataItem4": "App preferences and settings",
+      "dataItem5": "Subscription status and history",
+      "dataItem6": "Local device data and cache",
+      "yourDataRights": "Your Data Rights",
+      "yourDataRightsText": "We respect your right to data privacy. This account deletion process complies with:",
+      "gdpr": "GDPR - Right to erasure (\"right to be forgotten\")",
+      "googlePlay": "Google Play - Data deletion requirements",
+      "appStore": "App Store - Privacy and data protection standards",
+      "quickInstructions": "Need Quick Instructions?",
+      "quickInstructionsText": "For a simplified, step-by-step guide without the extra details, check out our quick data deletion instructions.",
+      "viewQuickGuide": "View Quick Guide",
+      "needHelpTitle": "Need Help?",
+      "needHelpText": "If you have questions or concerns about deleting your account, our support team is here to help."
+    }
   }
 }
 

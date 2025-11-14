@@ -55,5 +55,76 @@
   "footer": {
     "copyright": "© 2025 Lexyk por AlgoPort Inc. Todos os direitos reservados.",
     "followUs": "Siga-nos"
+  },
+  "pages": {
+    "privacy": {
+      "title": "Política de Privacidade",
+      "description": "Saiba mais sobre a política de privacidade da Lexykapp e como protegemos seus dados enquanto você aprende vocabulário e melhora suas habilidades linguísticas."
+    },
+    "terms": {
+      "title": "Termos de Serviço",
+      "description": "Leia os termos de serviço da Lexykapp para usar nosso aplicativo de aprendizado de vocabulário e plataforma de aprendizado de idiomas."
+    },
+    "dataDeletion": {
+      "title": "Instruções de Exclusão de Dados",
+      "subtitle": "Guia rápido para remover sua conta Lexyk e dados pessoais",
+      "intro": "Se você deseja excluir sua conta Lexyk e os dados pessoais associados, pode fazê-lo diretamente no aplicativo:",
+      "step1": "Abra o aplicativo Lexyk no seu dispositivo",
+      "step2": "Vá para Configurações",
+      "step3": "Role até o final e toque em Excluir Conta",
+      "step4": "Confirme a exclusão quando solicitado",
+      "warning": "Importante: Uma vez confirmado, sua conta e dados pessoais serão excluídos permanentemente de nossos sistemas. Este processo não pode ser desfeito.",
+      "needHelp": "Precisa de Ajuda?",
+      "needHelpText": "Se você tiver problemas para excluir sua conta ou já desinstalou o aplicativo, entre em contato com nossa equipe de suporte:",
+      "contactSupport": "Contatar Suporte",
+      "moreDetails": "Quer Mais Detalhes?",
+      "moreDetailsText": "Para informações abrangentes sobre quais dados são excluídos, tempos de processamento e conformidade legal, visite nossa página detalhada de exclusão de conta.",
+      "viewCompleteGuide": "Ver Guia Completo de Exclusão",
+      "privacyPolicy": "Política de Privacidade",
+      "termsOfService": "Termos de Serviço",
+      "backToHome": "Voltar ao Início"
+    },
+    "deleteAccount": {
+      "title": "Excluir Sua Conta",
+      "subtitle": "Lamentamos vê-lo partir. Esta página o guiará pelo processo de exclusão de conta.",
+      "warningTitle": "⚠️ Aviso: Esta Ação é Permanente",
+      "warningText": "Uma vez que sua conta seja excluída, todos os seus dados serão removidos permanentemente de nossos servidores. Esta ação não pode ser desfeita e você não poderá recuperar seu progresso de aprendizado, vocabulário salvo ou qualquer outra informação da conta.",
+      "howToDelete": "Como Excluir Sua Conta",
+      "method1Title": "Excluir no Aplicativo",
+      "method1Text": "Se você ainda tem o aplicativo Lexyk instalado, pode excluir sua conta diretamente:",
+      "method1Step1": "Abra o aplicativo Lexyk",
+      "method1Step2": "Vá para Configurações",
+      "method1Step3": "Navegue até Perfil",
+      "method1Step4": "Role para baixo e toque em Excluir Conta",
+      "method1Step5": "Confirme sua decisão",
+      "processingTimeImmediate": "Tempo de Processamento: Imediato",
+      "method2Title": "Solicitação por Email",
+      "method2Text": "Se você desinstalou o aplicativo ou não consegue acessá-lo, envie-nos um email:",
+      "method2Subject": "Assunto: Solicitação de Exclusão de Conta",
+      "method2Include": "Inclua:",
+      "method2Item1": "Seu endereço de email registrado",
+      "method2Item2": "Seu nome de usuário (se aplicável)",
+      "method2Item3": "Confirmação de que deseja excluir todos os dados",
+      "emailUsForDeletion": "📧 Envie-nos um Email para Exclusão",
+      "processingTime30Days": "Tempo de Processamento: Dentro de 30 dias",
+      "whatDataGetsDeleted": "Quais Dados são Excluídos",
+      "whatDataGetsDeletedText": "Quando você excluir sua conta, os seguintes dados serão removidos permanentemente:",
+      "dataItem1": "Informações do perfil (nome, email, foto de perfil)",
+      "dataItem2": "Progresso de aprendizado e estatísticas",
+      "dataItem3": "Vocabulário salvo e flashcards",
+      "dataItem4": "Preferências e configurações do aplicativo",
+      "dataItem5": "Status e histórico de assinatura",
+      "dataItem6": "Dados locais do dispositivo e cache",
+      "yourDataRights": "Seus Direitos de Dados",
+      "yourDataRightsText": "Respeitamos seu direito à privacidade de dados. Este processo de exclusão de conta está em conformidade com:",
+      "gdpr": "GDPR - Direito ao apagamento (\"direito ao esquecimento\")",
+      "googlePlay": "Google Play - Requisitos de exclusão de dados",
+      "appStore": "App Store - Padrões de privacidade e proteção de dados",
+      "quickInstructions": "Precisa de Instruções Rápidas?",
+      "quickInstructionsText": "Para um guia simplificado passo a passo sem os detalhes extras, confira nossas instruções rápidas de exclusão de dados.",
+      "viewQuickGuide": "Ver Guia Rápido",
+      "needHelpTitle": "Precisa de Ajuda?",
+      "needHelpText": "Se você tiver dúvidas ou preocupações sobre a exclusão de sua conta, nossa equipe de suporte está aqui para ajudar."
+    }
   }
 }

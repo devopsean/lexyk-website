@@ -55,5 +55,76 @@
   "footer": {
     "copyright": "© 2025 Lexyk di AlgoPort Inc. Tutti i diritti riservati.",
     "followUs": "Seguici"
+  },
+  "pages": {
+    "privacy": {
+      "title": "Informativa sulla Privacy",
+      "description": "Scopri l'informativa sulla privacy di Lexykapp e come proteggiamo i tuoi dati mentre impari il vocabolario e migliori le tue competenze linguistiche."
+    },
+    "terms": {
+      "title": "Termini di Servizio",
+      "description": "Leggi i termini di servizio di Lexykapp per utilizzare la nostra app di apprendimento del vocabolario e piattaforma di apprendimento delle lingue."
+    },
+    "dataDeletion": {
+      "title": "Istruzioni per la Cancellazione dei Dati",
+      "subtitle": "Guida rapida per rimuovere il tuo account Lexyk e i dati personali",
+      "intro": "Se desideri eliminare il tuo account Lexyk e i dati personali associati, puoi farlo direttamente dall'app:",
+      "step1": "Apri l'app Lexyk sul tuo dispositivo",
+      "step2": "Vai a Impostazioni",
+      "step3": "Scorri fino in fondo e tocca Elimina Account",
+      "step4": "Conferma l'eliminazione quando richiesto",
+      "warning": "Importante: Una volta confermato, il tuo account e i dati personali saranno eliminati permanentemente dai nostri sistemi. Questo processo non può essere annullato.",
+      "needHelp": "Hai Bisogno di Assistenza?",
+      "needHelpText": "Se riscontri problemi nell'eliminazione del tuo account o hai già disinstallato l'app, contatta il nostro team di supporto:",
+      "contactSupport": "Contatta il Supporto",
+      "moreDetails": "Vuoi Più Dettagli?",
+      "moreDetailsText": "Per informazioni complete su quali dati vengono eliminati, tempi di elaborazione e conformità legale, visita la nostra pagina dettagliata di eliminazione account.",
+      "viewCompleteGuide": "Visualizza Guida Completa di Eliminazione",
+      "privacyPolicy": "Informativa sulla Privacy",
+      "termsOfService": "Termini di Servizio",
+      "backToHome": "Torna alla Home"
+    },
+    "deleteAccount": {
+      "title": "Elimina il Tuo Account",
+      "subtitle": "Ci dispiace vederti andare. Questa pagina ti guiderà attraverso il processo di eliminazione dell'account.",
+      "warningTitle": "⚠️ Avviso: Questa Azione è Permanente",
+      "warningText": "Una volta eliminato il tuo account, tutti i tuoi dati saranno rimossi permanentemente dai nostri server. Questa azione non può essere annullata e non sarai in grado di recuperare il tuo progresso di apprendimento, vocabolario salvato o qualsiasi altra informazione dell'account.",
+      "howToDelete": "Come Eliminare il Tuo Account",
+      "method1Title": "Elimina nell'App",
+      "method1Text": "Se hai ancora l'app Lexyk installata, puoi eliminare il tuo account direttamente:",
+      "method1Step1": "Apri l'app Lexyk",
+      "method1Step2": "Vai a Impostazioni",
+      "method1Step3": "Naviga su Profilo",
+      "method1Step4": "Scorri verso il basso e tocca Elimina Account",
+      "method1Step5": "Conferma la tua decisione",
+      "processingTimeImmediate": "Tempo di Elaborazione: Immediato",
+      "method2Title": "Richiesta via Email",
+      "method2Text": "Se hai disinstallato l'app o non puoi accedervi, inviaci un'email:",
+      "method2Subject": "Oggetto: Richiesta di Eliminazione Account",
+      "method2Include": "Includi:",
+      "method2Item1": "Il tuo indirizzo email registrato",
+      "method2Item2": "Il tuo nome utente (se applicabile)",
+      "method2Item3": "Conferma che desideri eliminare tutti i dati",
+      "emailUsForDeletion": "📧 Inviaci un'Email per l'Eliminazione",
+      "processingTime30Days": "Tempo di Elaborazione: Entro 30 giorni",
+      "whatDataGetsDeleted": "Quali Dati Vengono Eliminati",
+      "whatDataGetsDeletedText": "Quando elimini il tuo account, i seguenti dati saranno rimossi permanentemente:",
+      "dataItem1": "Informazioni del profilo (nome, email, foto del profilo)",
+      "dataItem2": "Progresso di apprendimento e statistiche",
+      "dataItem3": "Vocabolario salvato e flashcards",
+      "dataItem4": "Preferenze e impostazioni dell'app",
+      "dataItem5": "Stato e cronologia dell'abbonamento",
+      "dataItem6": "Dati locali del dispositivo e cache",
+      "yourDataRights": "I Tuoi Diritti sui Dati",
+      "yourDataRightsText": "Rispettiamo il tuo diritto alla privacy dei dati. Questo processo di eliminazione account è conforme a:",
+      "gdpr": "GDPR - Diritto alla cancellazione (\"diritto all'oblio\")",
+      "googlePlay": "Google Play - Requisiti di eliminazione dati",
+      "appStore": "App Store - Standard di privacy e protezione dati",
+      "quickInstructions": "Hai Bisogno di Istruzioni Rapide?",
+      "quickInstructionsText": "Per una guida semplificata passo dopo passo senza i dettagli extra, consulta le nostre istruzioni rapide di eliminazione dati.",
+      "viewQuickGuide": "Visualizza Guida Rapida",
+      "needHelpTitle": "Hai Bisogno di Aiuto?",
+      "needHelpText": "Se hai domande o preoccupazioni sull'eliminazione del tuo account, il nostro team di supporto è qui per aiutarti."
+    }
   }
 }

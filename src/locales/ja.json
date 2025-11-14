@@ -55,5 +55,76 @@
   "footer": {
     "copyright": "© 2025 Lexyk by AlgoPort Inc. 全著作権所有。",
     "followUs": "フォローする"
+  },
+  "pages": {
+    "privacy": {
+      "title": "プライバシーポリシー",
+      "description": "Lexykappのプライバシーポリシーと、語彙を学習し、言語スキルを向上させる際にデータを保護する方法について学びます。"
+    },
+    "terms": {
+      "title": "利用規約",
+      "description": "語彙学習アプリと言語学習プラットフォームを使用するためのLexykappの利用規約をお読みください。"
+    },
+    "dataDeletion": {
+      "title": "データ削除の手順",
+      "subtitle": "Lexykアカウントと個人データを削除するためのクイックガイド",
+      "intro": "Lexykアカウントと関連する個人データを削除したい場合は、アプリ内から直接行うことができます：",
+      "step1": "デバイスでLexykアプリを開く",
+      "step2": "設定に移動",
+      "step3": "下にスクロールして「アカウントを削除」をタップ",
+      "step4": "プロンプトが表示されたら削除を確認",
+      "warning": "重要：確認後、アカウントと個人データはシステムから永続的に削除されます。このプロセスは元に戻せません。",
+      "needHelp": "サポートが必要ですか？",
+      "needHelpText": "アカウントの削除に問題がある場合、またはアプリを既にアンインストールしている場合は、サポートチームにお問い合わせください：",
+      "contactSupport": "サポートに連絡",
+      "moreDetails": "詳細が必要ですか？",
+      "moreDetailsText": "削除されるデータ、処理時間、法的コンプライアンスに関する包括的な情報については、詳細なアカウント削除ページをご覧ください。",
+      "viewCompleteGuide": "完全な削除ガイドを表示",
+      "privacyPolicy": "プライバシーポリシー",
+      "termsOfService": "利用規約",
+      "backToHome": "ホームに戻る"
+    },
+    "deleteAccount": {
+      "title": "アカウントを削除",
+      "subtitle": "お別れを残念に思います。このページでは、アカウント削除プロセスを案内します。",
+      "warningTitle": "⚠️ 警告：この操作は永続的です",
+      "warningText": "アカウントが削除されると、すべてのデータがサーバーから永続的に削除されます。この操作は元に戻せず、学習の進捗、保存された語彙、またはその他のアカウント情報を回復することはできません。",
+      "howToDelete": "アカウントの削除方法",
+      "method1Title": "アプリ内で削除",
+      "method1Text": "Lexykアプリがまだインストールされている場合は、直接アカウントを削除できます：",
+      "method1Step1": "Lexykアプリを開く",
+      "method1Step2": "設定に移動",
+      "method1Step3": "プロフィールに移動",
+      "method1Step4": "下にスクロールして「アカウントを削除」をタップ",
+      "method1Step5": "決定を確認",
+      "processingTimeImmediate": "処理時間：即座",
+      "method2Title": "メールリクエスト",
+      "method2Text": "アプリをアンインストールした場合、またはアクセスできない場合は、メールを送信してください：",
+      "method2Subject": "件名：アカウント削除リクエスト",
+      "method2Include": "含める内容：",
+      "method2Item1": "登録済みのメールアドレス",
+      "method2Item2": "アカウントのユーザー名（該当する場合）",
+      "method2Item3": "すべてのデータを削除したいことの確認",
+      "emailUsForDeletion": "📧 削除のメールを送信",
+      "processingTime30Days": "処理時間：30日以内",
+      "whatDataGetsDeleted": "削除されるデータ",
+      "whatDataGetsDeletedText": "アカウントを削除すると、次のデータが永続的に削除されます：",
+      "dataItem1": "プロフィール情報（名前、メール、プロフィール写真）",
+      "dataItem2": "学習の進捗と統計",
+      "dataItem3": "保存された語彙とフラッシュカード",
+      "dataItem4": "アプリの設定と環境設定",
+      "dataItem5": "サブスクリプションのステータスと履歴",
+      "dataItem6": "ローカルデバイスデータとキャッシュ",
+      "yourDataRights": "データの権利",
+      "yourDataRightsText": "データプライバシーの権利を尊重しています。このアカウント削除プロセスは以下に準拠しています：",
+      "gdpr": "GDPR - 削除権（「忘れられる権利」）",
+      "googlePlay": "Google Play - データ削除要件",
+      "appStore": "App Store - プライバシーとデータ保護基準",
+      "quickInstructions": "クイック手順が必要ですか？",
+      "quickInstructionsText": "追加の詳細なしで簡略化されたステップバイステップガイドについては、クイックデータ削除手順をご確認ください。",
+      "viewQuickGuide": "クイックガイドを表示",
+      "needHelpTitle": "サポートが必要ですか？",
+      "needHelpText": "アカウントの削除に関する質問や懸念がある場合は、サポートチームがお手伝いします。"
+    }
   }
 }

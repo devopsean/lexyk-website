@@ -228,20 +228,9 @@ export default function DeleteAccount() {
               {t.pages.deleteAccount.yourDataRightsText}
             </p>
             <ul className="list-disc list-inside mt-3 sm:mt-4 space-y-2 text-gray-200 text-sm sm:text-base lg:text-[1.3vw] over-2000:text-[1vw]">
-              {complianceItems.map((item, index) => {
-                const parts = item.split(' - ');
-                return (
-                  <li key={index}>
-                    {parts.length > 1 ? (
-                      <>
-                        <strong className="text-white">{parts[0]}</strong> - {parts.slice(1).join(' - ')}
-                      </>
-                    ) : (
-                      item
-                    )}
-                  </li>
-                );
-              })}
+              {complianceItems.map((item, index) => (
+                <li key={index}><strong className="text-white">{item.split(' - ')[0]}</strong> - {item.split(' - ')[1]}</li>
+              ))}
             </ul>
           </div>
 

@@ -55,5 +55,76 @@
   "footer": {
     "copyright": "© 2025 Lexyk von AlgoPort Inc. Alle Rechte vorbehalten.",
     "followUs": "Folge uns"
+  },
+  "pages": {
+    "privacy": {
+      "title": "Datenschutzrichtlinie",
+      "description": "Erfahren Sie mehr über die Datenschutzrichtlinie von Lexykapp und wie wir Ihre Daten schützen, während Sie Vokabeln lernen und Ihre Sprachkenntnisse verbessern."
+    },
+    "terms": {
+      "title": "Nutzungsbedingungen",
+      "description": "Lesen Sie die Nutzungsbedingungen von Lexykapp für die Verwendung unserer Vokabel-Lern-App und Sprachlernplattform."
+    },
+    "dataDeletion": {
+      "title": "Anleitung zur Datenlöschung",
+      "subtitle": "Kurzanleitung zum Entfernen Ihres Lexyk-Kontos und Ihrer persönlichen Daten",
+      "intro": "Wenn Sie Ihr Lexyk-Konto und die zugehörigen persönlichen Daten löschen möchten, können Sie dies direkt in der App tun:",
+      "step1": "Öffnen Sie die Lexyk-App auf Ihrem Gerät",
+      "step2": "Gehen Sie zu Einstellungen",
+      "step3": "Scrollen Sie nach unten und tippen Sie auf Konto löschen",
+      "step4": "Bestätigen Sie die Löschung, wenn Sie dazu aufgefordert werden",
+      "warning": "Wichtig: Nach der Bestätigung werden Ihr Konto und Ihre persönlichen Daten dauerhaft aus unseren Systemen gelöscht. Dieser Vorgang kann nicht rückgängig gemacht werden.",
+      "needHelp": "Benötigen Sie Hilfe?",
+      "needHelpText": "Wenn Sie Probleme beim Löschen Ihres Kontos haben oder die App bereits deinstalliert haben, kontaktieren Sie bitte unser Support-Team:",
+      "contactSupport": "Support kontaktieren",
+      "moreDetails": "Möchten Sie mehr Details?",
+      "moreDetailsText": "Für umfassende Informationen darüber, welche Daten gelöscht werden, Bearbeitungszeiten und rechtliche Compliance, besuchen Sie unsere detaillierte Seite zur Kontolöschung.",
+      "viewCompleteGuide": "Vollständige Löschanleitung anzeigen",
+      "privacyPolicy": "Datenschutzrichtlinie",
+      "termsOfService": "Nutzungsbedingungen",
+      "backToHome": "Zurück zur Startseite"
+    },
+    "deleteAccount": {
+      "title": "Ihr Konto löschen",
+      "subtitle": "Es tut uns leid, Sie gehen zu sehen. Diese Seite führt Sie durch den Prozess der Kontolöschung.",
+      "warningTitle": "⚠️ Warnung: Diese Aktion ist dauerhaft",
+      "warningText": "Sobald Ihr Konto gelöscht ist, werden alle Ihre Daten dauerhaft von unseren Servern entfernt. Diese Aktion kann nicht rückgängig gemacht werden und Sie können Ihren Lernfortschritt, gespeicherte Vokabeln oder andere Kontoinformationen nicht wiederherstellen.",
+      "howToDelete": "So löschen Sie Ihr Konto",
+      "method1Title": "In der App löschen",
+      "method1Text": "Wenn Sie die Lexyk-App noch installiert haben, können Sie Ihr Konto direkt löschen:",
+      "method1Step1": "Öffnen Sie die Lexyk-App",
+      "method1Step2": "Gehen Sie zu Einstellungen",
+      "method1Step3": "Navigieren Sie zu Profil",
+      "method1Step4": "Scrollen Sie nach unten und tippen Sie auf Konto löschen",
+      "method1Step5": "Bestätigen Sie Ihre Entscheidung",
+      "processingTimeImmediate": "Bearbeitungszeit: Sofort",
+      "method2Title": "E-Mail-Anfrage",
+      "method2Text": "Wenn Sie die App deinstalliert haben oder nicht darauf zugreifen können, senden Sie uns eine E-Mail:",
+      "method2Subject": "Betreff: Anfrage zur Kontolöschung",
+      "method2Include": "Bitte angeben:",
+      "method2Item1": "Ihre registrierte E-Mail-Adresse",
+      "method2Item2": "Ihr Benutzername (falls zutreffend)",
+      "method2Item3": "Bestätigung, dass Sie alle Daten löschen möchten",
+      "emailUsForDeletion": "📧 E-Mail für Löschung senden",
+      "processingTime30Days": "Bearbeitungszeit: Innerhalb von 30 Tagen",
+      "whatDataGetsDeleted": "Welche Daten werden gelöscht",
+      "whatDataGetsDeletedText": "Wenn Sie Ihr Konto löschen, werden die folgenden Daten dauerhaft entfernt:",
+      "dataItem1": "Profilinformationen (Name, E-Mail, Profilfoto)",
+      "dataItem2": "Lernfortschritt und Statistiken",
+      "dataItem3": "Gespeicherte Vokabeln und Karteikarten",
+      "dataItem4": "App-Einstellungen und Präferenzen",
+      "dataItem5": "Abonnementstatus und -verlauf",
+      "dataItem6": "Lokale Gerätedaten und Cache",
+      "yourDataRights": "Ihre Datenrechte",
+      "yourDataRightsText": "Wir respektieren Ihr Recht auf Datenschutz. Dieser Kontolöschungsprozess entspricht:",
+      "gdpr": "DSGVO - Recht auf Löschung (\"Recht auf Vergessenwerden\")",
+      "googlePlay": "Google Play - Anforderungen zur Datenlöschung",
+      "appStore": "App Store - Datenschutz- und Datenschutzstandards",
+      "quickInstructions": "Benötigen Sie eine Kurzanleitung?",
+      "quickInstructionsText": "Für eine vereinfachte Schritt-für-Schritt-Anleitung ohne die zusätzlichen Details, sehen Sie sich unsere Kurzanleitung zur Datenlöschung an.",
+      "viewQuickGuide": "Kurzanleitung anzeigen",
+      "needHelpTitle": "Benötigen Sie Hilfe?",
+      "needHelpText": "Wenn Sie Fragen oder Bedenken zur Löschung Ihres Kontos haben, steht unser Support-Team Ihnen zur Verfügung."
+    }
   }
 }

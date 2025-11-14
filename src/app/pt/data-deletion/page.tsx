@@ -1,14 +1,13 @@
 "use client";
 
 import React from "react";
-import { Metadata } from "next";
-import Header2 from "../components/header2";
+import Header2 from "../../components/header2";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import stars from "../../../public/Stars.svg";
-import pyramid from "../../../public/Pyramid.png";
-import helix from "../../../public/Helix.png";
+import stars from "../../../../public/Stars.svg";
+import pyramid from "../../../../public/Pyramid.png";
+import helix from "../../../../public/Helix.png";
 import { getTranslations, getLocaleFromPath, getLocalizedPath } from "@/lib/translations";
 
 export default function DataDeletion() {
@@ -194,3 +193,4 @@ export default function DataDeletion() {
     </div>
   );
 }
+
