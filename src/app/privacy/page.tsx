@@ -5,6 +5,7 @@ import fs from "fs";
 import path from "path";
 import Header2 from "../components/header2";
 import { Metadata } from "next";
+import { getTranslations } from "@/lib/translations";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
@@ -20,6 +21,9 @@ export const metadata: Metadata = {
 };
 
 export default async function Privacy() {
+  const locale = 'en';
+  const t = getTranslations(locale);
+  
   // Read the markdown file at runtime
   const filePath = path.join(process.cwd(), "privacy.md");
   const markdownContent = fs.readFileSync(filePath, "utf-8");
@@ -32,6 +36,12 @@ export default async function Privacy() {
       <Header2/>
       <div className="flex items-center justify-center px-4 sm:px-6">
         <div className="markdown-container text-white p-4 sm:p-6 md:p-8 lg:mx-4 xl:mx-6 my-4 sm:my-6 lg:my-5 xl:my-7 max-w-7xl over-2000:max-w-[70vw] w-full">
+          <div className="mb-6 pb-6 border-b border-[#5E4CC9]/30">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-[#5E4CC9] via-[#7B6FE8] to-[#A29EE8] bg-clip-text text-transparent">
+              {t.pages.privacy.title}
+            </h1>
+            <p className="text-gray-300 text-lg">{t.pages.privacy.description}</p>
+          </div>
           <ReactMarkdown remarkPlugins={[remarkGfm]}>
             {markdownContent}
           </ReactMarkdown>
